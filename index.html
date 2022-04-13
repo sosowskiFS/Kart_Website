@@ -1,0 +1,352 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Test</title>
+
+    <style type="text/css">
+        .col-header {
+            padding: 0.5rem 1rem;
+            margin-bottom: 0;
+            background-color: rgba(0,0,0,.03);
+            border-bottom: 1px solid black;
+        }
+
+        .col-no-padding {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .border-right {
+            border-right: 1px solid black;
+        }
+
+        .border-left {
+            border-left: 1px solid black;
+        }
+
+        .flex-center-content {
+            height: 100%;
+            align-items: center;
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        @media (min-width: 0px) {
+            .ks-1440 {
+                display: none;
+            }
+
+            .ks-576 {
+                display: flex;
+            }
+
+            .longtext {
+                font-size: 0.8em;
+                margin-bottom: 1.3rem;
+            }
+
+            .moving-left-border {
+                border-left: none;
+                border-top: 1px solid black;
+            }
+        }
+
+        @media (min-width: 576px) {
+            .longtext {
+                font-size: 1em;
+                margin-bottom: 1rem;
+            }
+
+            .moving-left-border {
+                border-left: none;
+                border-top: 1px solid black;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .ks-1440 {
+                display: flex;
+            }
+
+            .ks-576 {
+                display: none;
+            }
+
+            .longtext {
+                font-size: 0.8em;
+                margin-bottom: 1.3rem;
+            }
+
+            .moving-left-border {
+                border-top: none;
+                border-left: 1px solid black;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .longtext {
+                font-size: 1em;
+                margin-bottom: 1rem;
+            }
+        }
+
+        @media (max-width: 1200px) {
+        }
+
+        @media (min-width: 1200px) {
+        }
+
+        @media (min-width: 1400px) {
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="display-4">Player Card</h1>
+            <div class="row" style="border-left:1px solid black; border-right:1px solid black; border-top:1px solid black;">
+                <div class="col col-no-padding border-right text-center">
+                    <div class="row g-0 flex-center-content">
+                        <div class="col-md-4">
+                            <!--Need to get the exact size of each sprite before animating it-->
+                            <!--https://levelup.gitconnected.com/three-ways-to-animate-sprite-sheet-image-a5c000f0c579-->
+                            <img src="img/kart-sonic.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Player Name</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-no-padding text-center">
+                    <div class="col-header">
+                        Kartscore
+                    </div>
+                    <div class="row ks-576">
+                        <div class="col col-sm-6" style="border-right: 1px solid black;">
+                            <p>Vanilla/Tech</p>
+                            <h5>9999</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <p>Juicebox</p>
+                            <h5>9999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top: 1px solid black">
+                        <div class="col col-sm-12">
+                            <p>Nitro</p>
+                            <h5>9999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-1440">
+                        <div class="col" style="border-right: 1px solid black;">
+                            <h5>&nbsp;</h5>
+                            <p>Vanilla/Tech</p>
+                        </div>
+                        <div class="col" style="border-right:1px solid black;">
+                            <h5>&nbsp;</h5>
+                            <p>Juicebox</p>
+                        </div>
+                        <div class="col">
+                            <h5>&nbsp;</h5>
+                            <p>Nitro</p>
+                        </div>
+                    </div>
+                    <div class="row ks-1440">
+                        <div class="col" style="border-right: 1px solid black;">
+                            <h5>9999</h5>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col" style="border-right:1px solid black;">
+                            <h5>9999</h5>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="col">
+                            <h5>9999</h5>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border:1px solid black;">
+                <div class="col col-no-padding border-right text-center">
+                    <div class="col-header">
+                        Overall
+                    </div>
+                    <div class="row ks-576">
+                        <div class="col col-sm-6" style="border-right: 1px solid black;">
+                            <p>Races</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <p>Wins</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top: 1px solid black">
+                        <div class="col col-sm-12">
+                            <p>Win Percent</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-1440">
+                        <div class="col" style="border-right:1px solid black;">
+                            <p>Races</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col" style="border-right:1px solid black;">
+                            <p>Wins</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col">
+                            <p>Win Percent</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top:1px solid black;">
+                        <div class="col col-sm-6" style="border-right: 1px solid black;">
+                            <p class="longtext">Second Places</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <p>Third Places</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top: 1px solid black">
+                        <div class="col col-sm-12">
+                            <p class="longtext">Podium Percent</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-1440" style="border-top: 1px solid black;">
+                        <div class="col" style="border-right: 1px solid black;">
+                            <p class="longtext">Second Places</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col" style="border-right:1px solid black;">
+                            <p>Third Places</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col">
+                            <p class="longtext">Podium Percent</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-no-padding text-center">
+                    <div class="col-header">
+                        Item Hits
+                    </div>
+                    <div class="row ks-576">
+                        <div class="col col-sm-12">
+                            <p>Hits</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top: 1px solid black">
+                        <div class="col col-sm-12">
+                            <p class="longtext">Self/Environment Hits</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-1440">
+                        <div class="col" style="border-right: 1px solid black;">
+                            <p>Hits</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col">
+                            <p class="longtext">Self/Environment Hits</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top:1px solid black;">
+                        <div class="col col-sm-6" style="border-right: 1px solid black;">
+                            <p>Spun Out</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col col-sm-6">
+                            <p>Exploded</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-576" style="border-top: 1px solid black">
+                        <div class="col col-sm-12">
+                            <p>Squished</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                    <div class="row ks-1440" style="border-top: 1px solid black;">
+                        <div class="col" style="border-right: 1px solid black;">
+                            <p>Spun Out</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col" style="border-right:1px solid black;">
+                            <p>Exploded</p>
+                            <h5>9,999,999</h5>
+                        </div>
+                        <div class="col">
+                            <p>Squished</p>
+                            <h5>99.99%</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="display-4">Map Records</h1>
+            <div class="row" style="border: 1px solid black">
+                <div class="col col-no-padding text-center">
+                    <div class="col-header">
+                        <h4>Green Hills</h4>
+                    </div>
+                    <div class="row" style="align-items: center;">
+                        <div class="col-md-4">
+                            <img src="img/kart-sonic.png" class="img-fluid" alt="..." width="145" height="145">
+                        </div>
+                        <div class="col-md-8 col-no-padding moving-left-border">
+                            <div class="row">
+                                <div class="col" style="border-right:1px solid black;">
+                                    <p>Races</p>
+                                    <h5>99999</h5>
+                                </div>
+                                <div class="col">
+                                    <p>RTVs</p>
+                                    <h5>99999</h5>
+                                </div>
+                            </div>
+                            <div class="row" style="border-top:1px solid black;">
+                                <div class="col" style="border-right:1px solid black;">
+                                    <p class="longtext">Vanilla/Tech Record</p>
+                                    <h5>99'99"99</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Player Name</h6>
+                                </div>
+                                <div class="col" style="border-right:1px solid black;">
+                                    <p>Juice Record</p>
+                                    <h5>99'99"99</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Player Name</h6>
+                                </div>
+                                <div class="col">
+                                    <p>Nitro Record</p>
+                                    <h5>99'99"99</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Player Name</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
