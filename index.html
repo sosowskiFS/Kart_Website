@@ -57,6 +57,56 @@
                 border-left: none;
                 border-top: 1px solid #dee2e6;
             }
+
+            .phonetext {
+                font-size:0.8em;
+            }
+
+            .tBorderRight {
+                border-right: none;
+            }
+
+            .tBorderBottom {
+                border-bottom: none;
+            }
+
+            .tBorderLeft {
+                border-left: none;
+            }
+
+            .tBorderTop {
+                border-top: none;
+            }
+
+            .h6longtext {
+                font-size: 0.8rem;
+            }
+
+            .searchBar {
+                max-width: 100%
+            }
+        }
+
+        @media (min-width: 477px) {
+            .tBorderRight {
+                border-right: 1px solid #dee2e6;
+            }
+
+            .tBorderBottom {
+                border-bottom: 1px solid #dee2e6;
+            }
+
+            .tBorderLeft {
+                border-left: 1px solid #dee2e6;
+            }
+
+            .tBorderTop {
+                border-top: 1px solid #dee2e6;
+            }
+
+            .h6longtext {
+                font-size: 1rem;
+            }
         }
 
         @media (min-width: 576px) {
@@ -68,6 +118,10 @@
             .moving-left-border {
                 border-left: none;
                 border-top: 1px solid #dee2e6;
+            }
+
+            .phonetext {
+                font-size: 1.25rem;
             }
         }
 
@@ -88,6 +142,10 @@
             .moving-left-border {
                 border-top: none;
                 border-left: 1px solid #dee2e6;
+            }
+
+            .searchBar {
+                max-width: 50%
             }
         }
 
@@ -112,200 +170,203 @@
     <main>
         <div class="container" style="margin-top:1em; margin-bottom:1em;">
             <h1 class="display-4">Player Card</h1>
-            <h5 class="display-6">Option 1</h5>
-            <div class="row" style="border-left:1px solid #dee2e6; border-right:1px solid #dee2e6; border-top:1px solid #dee2e6;">
-                <div class="col col-no-padding border-right text-center">
-                    <div class="row g-0 flex-center-content">
-                        <div class="col-md-4">
-                            <!--Need to get the exact size of each sprite before animating it-->
-                            <!--https://levelup.gitconnected.com/three-ways-to-animate-sprite-sheet-image-a5c000f0c579-->
-                            <img src="img/Acrid.png" class="img-fluid" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Player Name</h5>
-                            </div>
-                        </div>
-                    </div>
+            <!--<h5 class="display-6">Option 1</h5>
+    <div class="row" style="border-left:1px solid #dee2e6; border-right:1px solid #dee2e6; border-top:1px solid #dee2e6;">
+        <div class="col col-no-padding border-right text-center">
+            <div class="row g-0 flex-center-content">
+                <div class="col-md-4">-->
+            <!--Need to get the exact size of each sprite before animating it-->
+            <!--https://levelup.gitconnected.com/three-ways-to-animate-sprite-sheet-image-a5c000f0c579-->
+            <!--<img src="img/Acrid.png" class="img-fluid" alt="...">
                 </div>
-                <div class="col col-no-padding text-center">
-                    <div class="col-header">
-                        Kartscore
-                    </div>
-                    <div class="row ks-576">
-                        <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
-                            <p>Vanilla/Tech</p>
-                            <h5>9999</h5>
-                        </div>
-                        <div class="col col-sm-6">
-                            <p>Juicebox</p>
-                            <h5>9999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top: 1px solid #dee2e6">
-                        <div class="col col-sm-12">
-                            <p>Nitro</p>
-                            <h5>9999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-1440">
-                        <div class="col" style="border-right: 1px solid #dee2e6;">
-                            <h5>&nbsp;</h5>
-                            <p>Vanilla/Tech</p>
-                        </div>
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <h5>&nbsp;</h5>
-                            <p>Juicebox</p>
-                        </div>
-                        <div class="col">
-                            <h5>&nbsp;</h5>
-                            <p>Nitro</p>
-                        </div>
-                    </div>
-                    <div class="row ks-1440">
-                        <div class="col" style="border-right: 1px solid #dee2e6;">
-                            <h5>9999</h5>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <h5>9999</h5>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div class="col">
-                            <h5>9999</h5>
-                            <p>&nbsp;</p>
-                        </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Player Name</h5>
                     </div>
                 </div>
             </div>
-            <div class="row" style="border:1px solid #dee2e6;">
-                <div class="col col-no-padding border-right text-center">
-                    <div class="col-header">
-                        Overall
-                    </div>
-                    <div class="row ks-576">
-                        <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
-                            <p>Races</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col col-sm-6">
-                            <p>Wins</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top: 1px solid #dee2e6">
-                        <div class="col col-sm-12">
-                            <p>Win Percent</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-1440">
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <p>Races</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <p>Wins</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col">
-                            <p>Win Percent</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top:1px solid #dee2e6;">
-                        <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
-                            <p class="longtext">Second Places</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col col-sm-6">
-                            <p>Third Places</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top: 1px solid #dee2e6">
-                        <div class="col col-sm-12">
-                            <p class="longtext">Podium Percent</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
-                        <div class="col" style="border-right: 1px solid #dee2e6;">
-                            <p class="longtext">Second Places</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <p>Third Places</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col">
-                            <p class="longtext">Podium Percent</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
+        </div>
+        <div class="col col-no-padding text-center">
+            <div class="col-header">
+                Kartscore
+            </div>
+            <div class="row ks-576">
+                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                    <p>Vanilla/Tech</p>
+                    <h5>9999</h5>
                 </div>
-                <div class="col col-no-padding text-center">
-                    <div class="col-header">
-                        Item Hits
-                    </div>
-                    <div class="row ks-576">
-                        <div class="col col-sm-12">
-                            <p>Hits</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top: 1px solid #dee2e6">
-                        <div class="col col-sm-12">
-                            <p class="longtext">Self/Environment Hits</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-1440">
-                        <div class="col" style="border-right: 1px solid #dee2e6;">
-                            <p>Hits</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col">
-                            <p class="longtext">Self/Environment Hits</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top:1px solid #dee2e6;">
-                        <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
-                            <p>Spun Out</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col col-sm-6">
-                            <p>Exploded</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-576" style="border-top: 1px solid #dee2e6">
-                        <div class="col col-sm-12">
-                            <p>Squished</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
-                    <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
-                        <div class="col" style="border-right: 1px solid #dee2e6;">
-                            <p>Spun Out</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col" style="border-right:1px solid #dee2e6;">
-                            <p>Exploded</p>
-                            <h5>9,999,999</h5>
-                        </div>
-                        <div class="col">
-                            <p>Squished</p>
-                            <h5>99.99%</h5>
-                        </div>
-                    </div>
+                <div class="col col-sm-6">
+                    <p>Juicebox</p>
+                    <h5>9999</h5>
                 </div>
             </div>
-
-            <h5 class="display-6">Option 2</h5>
-
-            <h5 class="display-6"><img src="img/lg-sonic.png" />Player Name</h5>
+            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                <div class="col col-sm-12">
+                    <p>Nitro</p>
+                    <h5>9999</h5>
+                </div>
+            </div>
+            <div class="row ks-1440">
+                <div class="col" style="border-right: 1px solid #dee2e6;">
+                    <h5>&nbsp;</h5>
+                    <p>Vanilla/Tech</p>
+                </div>
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <h5>&nbsp;</h5>
+                    <p>Juicebox</p>
+                </div>
+                <div class="col">
+                    <h5>&nbsp;</h5>
+                    <p>Nitro</p>
+                </div>
+            </div>
+            <div class="row ks-1440">
+                <div class="col" style="border-right: 1px solid #dee2e6;">
+                    <h5>9999</h5>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <h5>9999</h5>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="col">
+                    <h5>9999</h5>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="border:1px solid #dee2e6;">
+        <div class="col col-no-padding border-right text-center">
+            <div class="col-header">
+                Overall
+            </div>
+            <div class="row ks-576">
+                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                    <p>Races</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col col-sm-6">
+                    <p>Wins</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                <div class="col col-sm-12">
+                    <p>Win Percent</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+            <div class="row ks-1440">
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <p>Races</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <p>Wins</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col">
+                    <p>Win Percent</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top:1px solid #dee2e6;">
+                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                    <p class="longtext">Second Places</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col col-sm-6">
+                    <p>Third Places</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                <div class="col col-sm-12">
+                    <p class="longtext">Podium Percent</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+            <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
+                <div class="col" style="border-right: 1px solid #dee2e6;">
+                    <p class="longtext">Second Places</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <p>Third Places</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col">
+                    <p class="longtext">Podium Percent</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col col-no-padding text-center">
+            <div class="col-header">
+                Item Hits
+            </div>
+            <div class="row ks-576">
+                <div class="col col-sm-12">
+                    <p>Hits</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                <div class="col col-sm-12">
+                    <p class="longtext">Self/Environment Hits</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-1440">
+                <div class="col" style="border-right: 1px solid #dee2e6;">
+                    <p>Hits</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col">
+                    <p class="longtext">Self/Environment Hits</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top:1px solid #dee2e6;">
+                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                    <p>Spun Out</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col col-sm-6">
+                    <p>Exploded</p>
+                    <h5>9,999,999</h5>
+                </div>
+            </div>
+            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                <div class="col col-sm-12">
+                    <p>Squished</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+            <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
+                <div class="col" style="border-right: 1px solid #dee2e6;">
+                    <p>Spun Out</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col" style="border-right:1px solid #dee2e6;">
+                    <p>Exploded</p>
+                    <h5>9,999,999</h5>
+                </div>
+                <div class="col">
+                    <p>Squished</p>
+                    <h5>99.99%</h5>
+                </div>
+            </div>
+        </div>
+    </div>-->
+            <!--<h5 class="display-6">Option 2</h5>-->
+            <span id="errMessage" style="display: none; color: #d11525;">Player not found</span>
+            <form class="d-flex searchBar" defaultbutton="searchButton" onsubmit="lookupPlayer();return false">
+                <input id="playerSearch" class="form-control me-2" type="search" placeholder="Search for a player..." aria-label="Search Players">
+                <button id="searchButton" class="btn btn-outline-success" type="button" onclick="lookupPlayer()">Search</button>
+            </form>
+            <img src="img/lg-sonic.png" style="display:inline-block; margin-bottom:18px;" /><h5 id="pName" style="display:inline-block;" class="display-6">Player Name</h5>
             <ul class="nav nav-tabs" id="op2Tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
@@ -324,47 +385,47 @@
                             <div class="row" style="align-items: center;">
                                 <div class="col-4">
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
+                                        <div class="col" style="padding:0;">
                                             <img src="img/gold.png" width="50" height="50" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
-                                            <h5>9,999,999</h5>
+                                        <div class="col" style="padding:0;">
+                                            <h5 id="goldStat" class="phonetext">9,999,999</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
+                                        <div class="col" style="padding:0;">
                                             <img src="img/silver.png" width="50" height="50" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
-                                            <h5>9,999,999</h5>
+                                        <div class="col" style="padding:0;">
+                                            <h5 id="silverStat" class="phonetext">9,999,999</h5>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
+                                        <div class="col" style="padding:0;">
                                             <img src="img/copper.png" width="50" height="50" class="img-fluid" />
                                         </div>
                                     </div>
                                     <div class="row" style="align-items: center;">
-                                        <div class="col">
-                                            <h5>9,999,999</h5>
+                                        <div class="col" style="padding:0;">
+                                            <h5 id="bronzeStat" class="phonetext">9,999,999</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row" style="align-items: center;margin-bottom: 0.5em;">
                                 <div class="progress" style="height: 25px; padding: 0;">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><h6 style="margin-bottom: 0;color: #000;">10%</h6></div>
-                                    <div class="progress-bar" role="progressbar" style="width: 15%; background-color: #adadad;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><h6 style="margin-bottom: 0; color: #000;">15%</h6></div>
-                                    <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #ad7251;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><h6 style="margin-bottom: 0; color: #000;">20%</h6></div>
-                                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><h6 style="margin-bottom: 0;">9,999,999 races</h6></div>
+                                    <div id="barGold" class="progress-bar bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><h6 id="perGold" class="h6longtext" style="margin-bottom: 0;color: #000;">10%</h6></div>
+                                    <div id="barSilver" class="progress-bar" role="progressbar" style="width: 15%; background-color: #adadad;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><h6 id="perSilver" class="h6longtext" style="margin-bottom: 0; color: #000;">15%</h6></div>
+                                    <div id="barBronze" class="progress-bar" role="progressbar" style="width: 20%; background-color: #ad7251;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><h6 id="perBronze" class="h6longtext" style="margin-bottom: 0; color: #000;">20%</h6></div>
+                                    <div id="barTotal" class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><h6 id="raceTotal" class="h6longtext" style="margin-bottom: 0;">9,999,999 Races</h6></div>
                                 </div>
                             </div>
                             <div class="row" style="align-items: center;">
@@ -376,7 +437,7 @@
                                     </div>
                                     <div class="row" style="align-items: center;">
                                         <div class="col">
-                                            <h5>9999</h5>
+                                            <h5 id="ksVanilla">9999</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -388,7 +449,7 @@
                                     </div>
                                     <div class="row" style="align-items: center;">
                                         <div class="col">
-                                            <h5>9999</h5>
+                                            <h5 id="ksJuice">9999</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -400,7 +461,7 @@
                                     </div>
                                     <div class="row" style="align-items: center;">
                                         <div class="col">
-                                            <h5>9999</h5>
+                                            <h5 id="ksNitro">9999</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -416,7 +477,7 @@
                                 Overall
                             </div>
                             <div class="row ks-576">
-                                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                                <div class="col col-sm-6 tBorderRight">
                                     <p>Races</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -425,18 +486,18 @@
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                            <div class="row ks-576 tBorderTop">
                                 <div class="col col-sm-12">
                                     <p>Win Percent</p>
                                     <h5>99.99%</h5>
                                 </div>
                             </div>
                             <div class="row ks-1440">
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                                <div class="col tBorderRight">
                                     <p>Races</p>
                                     <h5>9,999,999</h5>
                                 </div>
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                                <div class="col tBorderRight">
                                     <p>Wins</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -445,8 +506,8 @@
                                     <h5>99.99%</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6;">
-                                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                            <div class="row ks-576 tBorderTop">
+                                <div class="col col-sm-6 tBorderRight">
                                     <p class="longtext">Second Places</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -455,18 +516,18 @@
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                            <div class="row ks-576 tBorderTop">
                                 <div class="col col-sm-12">
                                     <p class="longtext">Podium Percent</p>
                                     <h5>99.99%</h5>
                                 </div>
                             </div>
-                            <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                            <div class="row ks-1440 tBorderTop">
+                                <div class="col tBorderRight">
                                     <p class="longtext">Second Places</p>
                                     <h5>9,999,999</h5>
                                 </div>
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                                <div class="col tBorderRight">
                                     <p>Third Places</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -486,14 +547,14 @@
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                            <div class="row ks-576 tBorderTop">
                                 <div class="col col-sm-12">
                                     <p class="longtext">Self/Environment Hits</p>
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
                             <div class="row ks-1440">
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                                <div class="col tBorderRight">
                                     <p>Hits</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -502,8 +563,8 @@
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6;">
-                                <div class="col col-sm-6" style="border-right: 1px solid #dee2e6;">
+                            <div class="row ks-576 tBorderTop">
+                                <div class="col col-sm-6 tBorderRight">
                                     <p>Spun Out</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -512,18 +573,18 @@
                                     <h5>9,999,999</h5>
                                 </div>
                             </div>
-                            <div class="row ks-576" style="border-top: 1px solid #dee2e6">
+                            <div class="row ks-576 tBorderTop">
                                 <div class="col col-sm-12">
                                     <p>Squished</p>
                                     <h5>99.99%</h5>
                                 </div>
                             </div>
-                            <div class="row ks-1440" style="border-top: 1px solid #dee2e6;">
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                            <div class="row ks-1440 tBorderTop">
+                                <div class="col tBorderRight">
                                     <p>Spun Out</p>
                                     <h5>9,999,999</h5>
                                 </div>
-                                <div class="col" style="border-right: 1px solid #dee2e6;">
+                                <div class="col tBorderRight">
                                     <p>Exploded</p>
                                     <h5>9,999,999</h5>
                                 </div>
@@ -584,5 +645,134 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        //Fun fact this won't run on local files because CORS can go blow me
+        let rawPlayerData = ""
+        let rawMapData = ""
+        let rawSkinData = ""
+        let rawTimeData = ""
+        let playerData = []
+        let mapData = []
+        let skinData = []
+        let timeData = []
+
+        async function getPlayerData() {
+            return fetch("https://onyomanya.github.io/data/Playerdata.txt").then(res => res.text()).then(text => { return text })
+        }
+        async function getMapData() {
+            return fetch("https://onyomanya.github.io/data/Mapdata.txt").then(res => res.text()).then(text => { return text })
+        }
+        async function getSkinData() {
+            return fetch("https://onyomanya.github.io/data/Skincounter.txt").then(res => res.text()).then(text => { return text })
+        }
+        async function getTimeData() {
+            return fetch("https://onyomanya.github.io/data/Timerecords.txt").then(res => res.text()).then(text => { return text })
+        }
+        async function callPlayerData() {
+            rawPlayerData = await this.getPlayerData();
+            rawMapData = await this.getMapData();
+            rawSkinData = await this.getSkinData();
+            rawTimeData = await this.getTimeData();
+
+            //Initial data organization needs to happen in this function as this is the only place JS will wait for the above
+            let playerDataStep1 = rawPlayerData.split(/\r?\n/);       
+            for (const t of playerDataStep1) {
+                if (t.length > 0) {
+                    playerData.push(t.split(";"))
+                }       
+            }
+
+            let mapDataStep1 = rawMapData.split(/\r?\n/);         
+            for (const t of mapDataStep1) {
+                if (t.length > 0) {
+                    mapData.push(t.split(";"))
+                }
+            }
+
+            let skinDataStep1 = rawSkinData.split(/\r?\n/);
+            for (const t of skinDataStep1) {
+                if (t.length > 0) {
+                    skinData.push(t.split(";"))
+                }
+            }
+
+            let timeDataStep1 = rawTimeData.split(/\r?\n/);
+            for (const t of timeDataStep1) {
+                if (t.length > 0) {
+                    timeData.push(t.split(";"))
+                }
+            }
+
+            applyPlayerData("Onyo");
+        }
+
+        function applyPlayerData(pName) {
+            //Fill the example table here
+            //For loop, check first element until desired key matches, copy data to everything.
+            let found = false;
+            for (const d of playerData) {
+                if (d[0].toLowerCase() == pName.toLowerCase()) {
+                    $("#errMessage").css("display", "none");
+                    $("#playerSearch").val("")
+                    found = true;
+                    //Overview screen
+                    $("#pName").html(d[0]);
+                    $('#raceTotal').html(parseInt(d[1]).toLocaleString("en-US") + " Races")
+
+                    //Calculate percentage of gold/silver/bronze, round to nearest full percent, and fill the remainder to 100%
+                    let raceTotal = parseInt(d[1])
+                    let gold = parseInt(d[2])
+                    let silver = parseInt(d[8])
+                    let bronze = parseInt(d[9])
+                    let goldPer = Math.round((gold / raceTotal) * 100)
+                    let silverPer = Math.round((silver / raceTotal) * 100)
+                    let bronzePer = Math.round((bronze / raceTotal) * 100)
+                    let totalPer = Math.abs((goldPer + silverPer + bronzePer) - 100)
+
+                    $("#goldStat").html(gold.toLocaleString("en-US"))
+                    $("#silverStat").html(silver.toLocaleString("en-US"))
+                    $("#bronzeStat").html(bronze.toLocaleString("en-US"))
+
+                    $("#barGold").css("width", goldPer.toString() + "%")
+                    $("#barSilver").css("width", silverPer.toString() + "%")
+                    $("#barBronze").css("width", bronzePer.toString() + "%")
+                    $("#barTotal").css("width", totalPer.toString() + "%")
+
+                    $("#perGold").html(goldPer.toString() + "%")
+                    $("#perSilver").html(silverPer.toString() + "%")
+                    $("#perBronze").html(bronzePer.toString() + "%")
+
+                    $("#ksVanilla").html(d[10])
+                    $("#ksJuice").html(d[11])
+                    $("#ksNitro").html(d[12])
+
+                    //Detail screen
+
+                    break;
+                }
+            }
+
+            if (!found) {
+                $("#errMessage").css("display", "inline");
+            }
+        }
+
+        function lookupPlayer() {
+            let pName = $("#playerSearch").val()
+            if (pName.length > 0) {
+                applyPlayerData(pName);
+            } else {
+                $("#errMessage").css("display", "inline");
+            }
+        }
+
+        $(document).ready(function () {
+            callPlayerData()
+        })
+
+
+    </script>
 </body>
 </html>
