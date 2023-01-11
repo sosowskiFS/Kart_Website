@@ -69,18 +69,16 @@
 		alert(reply)*/
 		
 		//Node.js
-		/*let reply = "";
-		let socket = new net.Socket;
-		
-		socket.connect(5029, "198.211.97.236", () => {
-			console.log('Connected')
-			socket.write(JSON.stringify({ type: 12 }));
+		/*
+		import dgram from 'node:dgram';
+		import { Buffer } from 'node:buffer';
+
+		const message = Buffer.from(JSON.stringify({ type: 12 }));
+		const client = dgram.createSocket('udp4');
+		client.send(message, 5029, '198.211.97.236', (err) => {
+		  client.close();
 		});
-		
-		socket.on('data', (data) => {
-			console.log('${data}');
-			socket.destroy();
-		});*/
+		*/
 	</script>
 </body>
 </html>
