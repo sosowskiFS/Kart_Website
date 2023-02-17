@@ -79,6 +79,59 @@
 		  client.close();
 		});
 		*/
+		
+		<?php
+		
+			error_reporting(~E_WARNING);
+			
+			$server = '198.211.97.236';
+			$port = 5029
+			if( isset($argv[1]) ) $server = $argv[1];
+			if( isset($argv[2]) ) $port   = $argv[2];
+			
+			if(!($sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP)))
+			{
+				$errorcode = socket_last_error();
+				$errormsg = socket_strerror($errorcode);
+
+				die("Couldn't create socket: [$errorcode] $errormsg \n");
+			}
+			
+			echo "Socket created \n";
+			
+			// Bind the source address
+			//??
+			//if( !socket_bind($sock, "127.0.0.1" , 55554) )
+			if( !socket_bind($sock, $server, $port) )
+			{
+				$errorcode = socket_last_error();
+				$errormsg = socket_strerror($errorcode);
+
+				die("Could not bind socket : [$errorcode] $errormsg \n");
+			}
+			
+			while(1)
+			{
+			    //Now receive reply from server and print it
+				if( ($bytesRead = socket_recvfrom ( $sock , $reply , 2045 , 0 , $server, $port )) === FALSE)
+				{
+					$errorcode = socket_last_error();
+					$errormsg = socket_strerror($errorcode);
+
+				if( ! in_array($errorcode, array(35) ) )
+				  die("Could not receive data: [$errorcode] $errormsg \n");
+				}
+
+				if( $bytesRead > 0 ) {
+				  echo "Reply : $reply";
+				}
+				usleep(500000);
+			}
+			
+		?>
+		
+		//Reference for parsing the returned data
+		//https://github.com/NielsjeNL/srb2kb
 	</script>
 </body>
 </html>
