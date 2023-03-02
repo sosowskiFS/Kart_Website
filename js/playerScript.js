@@ -1,4 +1,5 @@
 //Autocomplete stuff
+//I definately just copied most of this, don't tell anyone tee hee
 function autocomplete(inp, arr) {
     /*the autocomplete function takes two arguments,
     the text field element and an array of possible autocompleted values:*/
@@ -110,23 +111,31 @@ let mapData = []
 let skinData = []
 let timeData = []
 
+//Replace these with a remote URL of the data for local testing or else you get browsers bitching and moaning and shitting and farting
+let PlayerDataUrl = "https://raw.githubusercontent.com/sosowskiFS/Kart_Website/main/data/Playerdata.txt"
+/*
+let MapDataUrl = ""
+let SkinDataUrl = ""
+let TimeDataUrl = ""
+*/
+
 async function getPlayerData() {
-    return fetch("https://onyomanya.github.io/data/Playerdata.txt").then(res => res.text()).then(text => { return text })
+    return fetch(PlayerDataUrl).then(res => res.text()).then(text => { return text })
 }
-async function getMapData() {
-    return fetch("https://onyomanya.github.io/data/Mapdata.txt").then(res => res.text()).then(text => { return text })
+/*async function getMapData() {
+    return fetch(MapDataUrl).then(res => res.text()).then(text => { return text })
 }
 async function getSkinData() {
-    return fetch("https://onyomanya.github.io/data/Skincounter.txt").then(res => res.text()).then(text => { return text })
+    return fetch(SkinDataUrl).then(res => res.text()).then(text => { return text })
 }
 async function getTimeData() {
-    return fetch("https://onyomanya.github.io/data/Timerecords.txt").then(res => res.text()).then(text => { return text })
-}
-async function callPlayerData() {
+    return fetch(TimeDataUrl).then(res => res.text()).then(text => { return text })
+}*/
+async function callPlayerData() {	
     rawPlayerData = await this.getPlayerData();
-    rawMapData = await this.getMapData();
+    /*rawMapData = await this.getMapData();
     rawSkinData = await this.getSkinData();
-    rawTimeData = await this.getTimeData();
+    rawTimeData = await this.getTimeData();*/
     let autocompleteArray = [];
 
     //Initial data organization needs to happen in this function as this is the only place JS will wait for the above
@@ -139,7 +148,7 @@ async function callPlayerData() {
         }
     }
 
-    let mapDataStep1 = rawMapData.split(/\r?\n/);
+    /*let mapDataStep1 = rawMapData.split(/\r?\n/);
     for (const t of mapDataStep1) {
         if (t.length > 0) {
             mapData.push(t.split(";"))
@@ -158,9 +167,9 @@ async function callPlayerData() {
         if (t.length > 0) {
             timeData.push(t.split(";"))
         }
-    }
+    }*/
 
-    applyPlayerData("Onyo");
+    //applyPlayerData("Onyo");
     autocomplete(document.getElementById("playerSearch"), autocompleteArray);
 }
 
@@ -176,6 +185,12 @@ function findKSRank(pName, type) {
             break;
         case 'nitro':
             tIndex = 12
+            break;
+		case 'combi':
+            tIndex = 14
+            break;
+		case 'rings':
+            tIndex = 20
             break;
     }
     cloneList.sort(function (a, b) {
@@ -193,10 +208,7 @@ function findKSRank(pName, type) {
     return "N/A";
 }
 
-//https://www.w3schools.com/howto/howto_js_autocomplete.asp
-
 function applyPlayerData(pName) {
-    //Fill the example table here
     //For loop, check first element until desired key matches, copy data to everything.
     let found = false;
     for (const d of playerData) {
@@ -234,10 +246,20 @@ function applyPlayerData(pName) {
             $("#ksVanilla").text(d[10])
             $("#ksJuice").text(d[11])
             $("#ksNitro").text(d[12])
+			$("#ksCombi").text(d[14])
+			$("#ksRing").text(d[20])
+			
+			$("#ksVanillaBest").text("Best " + d[15])
+            $("#ksJuiceBest").text("Best " + d[16])
+            $("#ksNitroBest").text("Best " + d[17])
+			$("#ksCombiBest").text("Best " + d[19])
+			$("#ksRingBest").text("Best " + d[21])
 
             $("#ksVanillaRank").text("Rank " + findKSRank(d[0], "vanilla"))
             $("#ksJuiceRank").text("Rank " + findKSRank(d[0], "juice"))
             $("#ksNitroRank").text("Rank " + findKSRank(d[0], "nitro"))
+			$("#ksCombiRank").text("Rank " + findKSRank(d[0], "combi"))
+			$("#ksRingRank").text("Rank " + findKSRank(d[0], "rings"))
 
             //Detail screen
             $('#dRaces').text(parseInt(d[1]).toLocaleString("en-US"))
@@ -272,7 +294,9 @@ function applyPlayerData(pName) {
 
     if (!found) {
         $("#errMessage").css("display", "inline");
-    }
+    } else {
+		$("#hideuntilsearch").css("display", "block");
+	}
 }
 
 function lookupPlayer() {

@@ -2,7 +2,7 @@
     padding: 0.5rem 1rem;
     margin-bottom: 0;
     background-color: rgba(0,0,0,.03);
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #515151;
 }
 
 .col-no-padding {
@@ -11,11 +11,11 @@
 }
 
 .border-right {
-    border-right: 1px solid #dee2e6;
+    border-right: 1px solid #515151;
 }
 
 .border-left {
-    border-left: 1px solid #dee2e6;
+    border-left: 1px solid #515151;
 }
 
 .flex-center-content {
@@ -35,7 +35,7 @@
 
 .autocomplete-items {
     position: absolute;
-    border: 1px solid #d4d4d4;
+    border: 1px solid #515151;
     border-bottom: none;
     border-top: none;
     z-index: 99;
@@ -48,13 +48,13 @@
     .autocomplete-items div {
         padding: 10px;
         cursor: pointer;
-        background-color: #fff;
-        border-bottom: 1px solid #d4d4d4;
+        background-color: #222;
+        border-bottom: 1px solid #515151;
     }
 
         .autocomplete-items div:hover {
             /*when hovering an item:*/
-            background-color: #e9e9e9;
+            background-color: #444;
         }
 
 .autocomplete-active {
@@ -79,7 +79,7 @@
 
     .moving-left-border {
         border-left: none;
-        border-top: 1px solid #dee2e6;
+        border-top: 1px solid #515151;
     }
 
     .phonetext {
@@ -113,19 +113,19 @@
 
 @media (min-width: 477px) {
     .tBorderRight {
-        border-right: 1px solid #dee2e6;
+        border-right: 1px solid #515151;
     }
 
     .tBorderBottom {
-        border-bottom: 1px solid #dee2e6;
+        border-bottom: 1px solid #515151;
     }
 
     .tBorderLeft {
-        border-left: 1px solid #dee2e6;
+        border-left: 1px solid #515151;
     }
 
     .tBorderTop {
-        border-top: 1px solid #dee2e6;
+        border-top: 1px solid #515151;
     }
 
     .h6longtext {
@@ -141,7 +141,7 @@
 
     .moving-left-border {
         border-left: none;
-        border-top: 1px solid #dee2e6;
+        border-top: 1px solid #515151;
     }
 
     .phonetext {
@@ -165,11 +165,11 @@
 
     .moving-left-border {
         border-top: none;
-        border-left: 1px solid #dee2e6;
+        border-left: 1px solid #515151;
     }
 
     .searchBar {
-        max-width: 50%
+        max-width: 60%
     }
 }
 
