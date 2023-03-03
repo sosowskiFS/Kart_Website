@@ -1,267 +1,320 @@
-princevegeta;47;Vegeta;154
-pleinair;31;Pleinair;436
-courage;14;Courage;38
-yuzuk;20;Yuzuriha;123
-luluco;9;Luluco;30
-gex;4;Gex;8
-popuko;37;Popuko;284
-kingdeedeedee;11;King DeeDeeDee;39
-sol-badguy;7;Sol-Badguy;30
-undergroundmanic;1;Manic;1
-infinite;19;Infinite;79
-cacodemon;7;Cacodemon;20
-raboot;36;Raboot;461
-wheeliemotobug;11;Wheelie Motobug;34
-cobramonk;20;Cobra Monk;139
-ecco;15;Ecco;38
-signpost;6;Signpost;22
-carb;53;Carbuncle;444
-doomimp;5;Imp;12
-doom;37;Doomguy;493
-ranger;6;Ranger;21
-victor;27;Victor;365
-spark;161;Spark T.E.J;2089
-boomer;34;Boomer;192
-erikasamoto;2;Eri Kasamoto;2
-gruntilda;10;Gruntilda;27
-piccolo;21;Piccolo;76
-arle;38;Arle;373
-solaire;19;Solaire;129
-atomic_bomberman;22;Atomic Bomberman;86
-nanachi;74;Nanachi;1024
-dixiekong;4;Dixie Kong;15
-cptfalcon;8;Captain Falcon;17
-rosy;6;Classic Amy;16
-dodongos;28;CDI Link;213
-curlybrace;17;Curly Brace;126
-metall;10;Metall;37
-helper;18;Helper;68
-space_marine;17;Space Marine;117
-duke_nukem;17;Duke Nukem;96
-pingu;17;Pingu;64
-funky_kong;11;Funky Kong;31
-tf2-scout;39;Scout;174
-sega_bass_fishin;58;Sega Bass Fishin;880
-srb2modern;18;Modern Sonic;69
-miku;37;Hatsune Miku;192
-wallacewng;18;Wallace;1943
-tf2-medic;5;Medic;19
-samuelhayden;1;Samuel Hayden;1
-ulala;11;Ulala;140
-aigis;8;Aigis;14
-glover;4;Glover;9
-klonoa_lunatea;63;Klonoa;952
-dave;36;Dave;183
-baba;29;Baba & Keke;127
-chocobo;14;Chocobo;49
-drlivesey;39;Dr. Livesey;151
-robokirb;7;Wheel Robobot;21
-egg.scarlet;15;Bunnie;112
-ditto;34;Ditto;318
-padoru;73;Padoru;1069
-ctm;62;Catch That Man;346
-protosally;3;Proto Sally;9
-senatorarmstrong;9;Armstrong;27
-yamiyugien;37;Yami Yugi (EN);224
-fang;22;Fang;119
-undergroundsonia;7;Sonia;18
-dallas;21;Dallas;99
-metson;22;Metal;119
-satam_robotnik;23;Satam Robotnik;76
-morshu;33;Morshu;164
-ronaldmcdonald;40;Ronald McDonald;224
-bubblun;18;Bubblun;73
-mona;35;Mona;187
-pacman;13;Pac-Man;51
-emerl;13;Emerl;51
-kino;17;Kino;162
-commando;44;Commando;340
-espio;4;Espio;10
-youmukonpaku;18;Youmu Konpaku;1258
-ristar;11;Ristar;51
-sonic;146;Sonic;642
-banjo;8;Banjo & Kazooie;26
-supermario;39;Mario;260
-lcorpnugget;12;L Corp Nugget;37
-cream;31;Cream;267
-gceara;18;G. Ceara;94
-mgray;27;Metal Gear Ray;161
-spamtonneo;43;Spamton NEO;295
-vectorman;5;Vectorman;19
-demi-fiend;9;Demi-Fiend;28
-vibri;28;Vibri;210
-maria;14;Maria;102
-ss13clown;22;SS13 Clown;94
-aniki;64;Aniki;1105
-peppino;41;Peppino;315
-motobug;16;Motobug;413
-charmy;23;Charmy;103
-flonne;42;Flonne;2428
-hornets;9;Hornets;35
-raymanorigins;23;Rayman;153
-team_rocket;17;Team Rocket;67
-bandana_dee;4;Bandana Dee;5
-bigthecat;19;Big the Cat;248
-bomberman;21;Bomberman;75
-pepperc.dab;14;Peppercat;62
-garfield;17;Garfield;147
-sparkster;24;Sparkster;99
-megamanx;34;MegamanX;128
-hotel;62;hotel;281
-buruma;36;Bulma;332
-plague;37;Plague Knight;230
-megamancero;37;Mega Man Zero;175
-chainchomp;6;Chain Chomp;27
-frog_in_a_car;40;Frog in a Car;507
-funisinfinite;18;Majin;86
-knuckles;36;Knuckles;209
-eggr;35;Eggrobo;258
-thwomp;32;Thwomp;635
-kingkrool;1;King KRool;1
-hibiki;7;Hibiki;22
-nights;13;NiGHTS;790
-jevil;61;Jevil;369
-the_king;36;The King;126
-shantae;51;Shantae;793
-shadow;70;Shadow;426
-trunks;11;Trunks;33
-mmvolnutt;12;Megaman Volnutt;47
-goku;34;Goku;75
-918volt;5;9-Volt and 18-Vo;19
-knight;12;The Knight;41
-stormalbatross;10;Storm;123
-heady;17;Headdy;67
-mactonight;51;MoonMan;418
-axl;10;Axl;45
-drybonerc;32;Drybones;115
-metal_knuckles;37;Metal Knuckles;153
-johnward;36;John Ward;157
-yotsuba;21;Yotsuba;85
-hsien-ko;58;Hsien-Ko;385
-wonderboy;7;Wonder Boy;32
-porkyminch;16;Porky Minch;62
-okuu;60;Utsuho Reiuji;375
-majima;6;Majima;21
-robosonic;30;Robo-Sonic;272
-annoyingdog;27;Annoying Dog;176
-mk64toad;33;MK64 Toad;430
-jet;12;Jet;200
-temjin;15;Temjin;92
-madotsuki;30;Madotsuki;309
-travis;3;Travis;6
-megaman;19;Mega Man;84
-propane;20;Hank Hill;77
-kingofthecosmos;8;King of Cosmos;30
-granny;15;Script Granny;59
-linne;1;Linne;2
-riamu;32;Riamu;128
-caterkiller;27;Caterkiller;1933
-kiryu;27;Kiryu Kazuma;357
-blitztank;42;Blitztank;209
-coldsteel;32;Coldsteel;221
-mk64luigi;18;MK64 Luigi;65
-sue;52;Sue Sakamoto;2233
-scorpionmk2;23;SCORPION;313
-sketchfox;24;Sketchfox;150
-chuchu;10;ChuChu;30
-sketchog;25;Sketchog;142
-tf2-soldier;25;Soldier;249
-scratch;9;Scratch;40
-quote;32;Quote;1109
-tankman;14;Captain John;53
-superhangon;20;Super Hang-On;83
-ashley;26;Ashley;113
-dantekrt;38;Dante;634
-sksonic;30;Skating Sonic;1200
-arrowhead;29;R9A Arrowhead;146
-beat;22;Beat;3096
-agent_rouge;39;Agent Rouge;1606
-slimeterraria;21;Slime;80
-wheelierider;2;Wheelie Rider;4
-masterchief;28;Master Chief;90
-vector;21;Vector;85
-hatapon;17;Hatapon;165
-sggg;15;SEGA;229
-amy;24;Amy;86
-flipnote-frog;19;Flipnote Frog;66
-omochao;14;Omochao;113
-puttputt;7;Putt-Putt;28
-tails_doll;2;Tails Doll;6
-bayonetta;11;Bayonetta;37
-misty_p;7;Misty & Psyduck;29
-vandarkholme;30;Van Darkholme;153
-hank;9;Hank;26
-reimu;38;Reimu Hakurei;670
-annoying-dog;6;Annoying Dog;22
-zero;31;Zero X4;181
-maxwell;4;Maxwell;10
-gooper;16;Gumshoe Gooper;234
-sakura;23;Sakura Shinguji;185
-kaiji;1;Kaiji;2
-vilemkii;17;VILE MK II;285
-nitroman;24;Nitro Man;214
-irongiant;6;Iron Giant;8
-madonna;65;Madonna;660
-mothmansmt;11;Mothman;34
-ecterim;5;Ecterim;20
-smug_bird;14;Wave;127
-terrycrews;19;Terry Crews;84
-prinny;41;Prinny;278
-whisper;39;Whisper;473
-grounder;9;Grounder;21
-kermitthefrog;24;Kermit;82
-grotesquesteve;49;Grotesque Steve;316
-protoman;12;ProtoMan;37
-slds;9;Solid Snake;22
-reankart;23;Rean Schwarzer;593
-crashbandicoot;22;Crash Bandicoot;333
-bass.exe;9;Bass.EXE;31
-nia;10;Nia;78
-aosthrobotnik;119;AoStH Robotnik;903
-eggman;43;Dr. Eggman;776
-yiik;48;Alex Eggleston;462
-moai;33;Moai;215
-mithrix;26;Mithrix;184
-issac;20;Issac;211
-waluigibike;6;Waluigi;12
-etna;26;Etna;1057
-copyx;30;Copy X;86
-acrid;22;Acrid;168
-pikachu;22;Pikachu;97
-mecha;38;Mecha Sonic;656
-metalslug;35;Metal Slug;122
-mk64mario;48;MK64 Mario;282
-lww_wario;63;LWW Wario;379
-moomin;13;Moomin;74
-earthworm_jim;12;Earthworm Jim;45
-vicvipert301;65;Vic Viper T301;801
-mk64wario;38;MK64 Wario;312
-sdhornet;14;Hornet;60
-sirpercival;36;Sir Percival;200
-pepsiman;31;Pepsiman;95
-blinx;34;Blinx;216
-brownbricks;39;MCw/Gadget;1742
-heavy;30;Heavy;119
-super;8;Super Mario 64;16
-marge;27;Marge Simpson;109
-joeywheeler;14;Joey Wheeler;126
-parappa;6;PaRappa;8
-space;23;Space Exploratio;91
-lowtiergod;42;LowTierGod;242
-rena;40;Rena;358
-outrun;14;OutRun;73
-kaneda;2;Shotaro Kaneda;3
-metalsonic;66;Metal Sonic;316
-falco;19;Falco Lombardi;79
-tails;54;Tails;370
-darkmetaknight;16;Dark Meta Knight;65
-omega;18;E-123 Omega;212
-blaze;39;Blaze;386
-wayne;9;Wayne;29
-superluigi;69;Luigi;485
-sirdan;20;Sir Daniel;265
-mk64dk;50;MK64 DK;2318
-gum;21;Gum;115
-crono;32;Crono;619
-shumagorath;5;Shuma Gorath;6
-kc_tonysoprano;25;TONY SOPRANO;245
+vilemkii;13;VILE MK II;240
+pleinair;9;Pleinair;37
+courage;26;Courage;367
+yuzuk;11;Yuzuriha;66
+nsami;0;Ami;0
+luluco;1;Luluco;1
+gex;2;Gex;4
+popuko;3;Popuko;5
+kingdeedeedee;12;King DeeDeeDee;43
+sol-badguy;1;Sol-Badguy;1
+marinaliteyears;0;Marina Liteyears;0
+infinite;8;Infinite;34
+cacodemon;4;Cacodemon;5
+raboot;12;Raboot;114
+nanakodojima;0;Nanako Dojima;0
+wheeliemotobug;1;Wheelie Motobug;1
+cobramonk;1;Cobra Monk;1
+tamamomae;0;Tamamo no Mae;0
+ecco;1;Ecco;5
+signpost;2;Signpost;3
+carb;15;Carbuncle;122
+modern_pit;1;Pit;1
+butthead;1;Butt-Head;2
+doom;6;Doomguy;23
+ranger;1;Ranger;4
+kenny;0;Kenny McCormick;0
+victor;5;Victor;20
+spark;9;Spark T.E.J;368
+boomer;14;Boomer;53
+erikasamoto;3;Eri Kasamoto;6
+gruntilda;14;Gruntilda;349
+piccolo;3;Piccolo;6
+lww_wario;19;LWW Wario;74
+moomin;6;Moomin;29
+atomic_bomberman;12;Atomic Bomberman;51
+nanachi;20;Nanachi;139
+dixiekong;0;Dixie Kong;0
+vicvipert301;1;Vic Viper T301;3
+rosy;3;Classic Amy;10
+dodongos;4;CDI Link;11
+tifa;0;Tifa Lockhart;0
+issac;12;Issac;73
+helper;17;Helper;118
+space_marine;1;Space Marine;1
+duke_nukem;8;Duke Nukem;31
+pingu;2;Pingu;7
+vigilante;0;The Vigilante;0
+beemer;0;BEEMER;0
+funky_kong;3;Funky Kong;9
+tf2-scout;9;Scout;35
+homer;0;Homer;0
+grounder;7;Grounder;29
+srb2modern;5;Modern Sonic;15
+miku;6;Hatsune Miku;21
+wallacewng;9;Wallace;316
+whisper;11;Whisper;44
+ridley;0;Ridley;0
+ulala;7;Ulala;31
+lina;1;Lina Inverse;1
+aigis;5;Aigis;24
+glover;1;Glover;1
+noid;0;Noid;0
+spikespiegel;0;Spike Spiegel;0
+dave;7;Dave;20
+baba;11;Baba & Keke;46
+chocobo;14;Chocobo;63
+drlivesey;4;Dr. Livesey;10
+robokirb;0;Wheel Robobot;0
+freeza;0;Freeza;0
+gooper;6;Gumshoe Gooper;22
+ditto;13;Ditto;39
+ctm;17;Catch That Man;87
+protosally;2;Proto Sally;4
+shaq;0;Shaquille O'Neal;0
+tawnabandicoot;1;Tawna;2
+yamiyugien;16;Yami Yugi (EN);67
+fang;16;Fang;69
+undergroundsonia;1;Sonia;1
+dallas;0;Dallas;0
+metson;3;Metal;14
+satam_robotnik;3;Satam Robotnik;10
+darkmetaknight;11;Dark Meta Knight;36
+sephirothjpn;0;Sephiroth (JPN);0
+ronaldmcdonald;11;Ronald McDonald;38
+bubblun;8;Bubblun;24
+mona;11;Mona;44
+adachi;1;Tohru Adachi;2
+pacman;3;Pac-Man;11
+emerl;11;Emerl;43
+kino;10;Kino;41
+commando;6;Commando;18
+espio;5;Espio;18
+youmukonpaku;12;Youmu Konpaku;387
+ristar;1;Ristar;1
+sonic;36;Sonic;305
+red_mage;0;Red Mage;0
+banjo;3;Banjo & Kazooie;11
+supermario;14;Mario;87
+lcorpnugget;0;L Corp Nugget;0
+cream;4;Cream;8
+gceara;16;G. Ceara;75
+mgray;0;Metal Gear Ray;0
+spamtonneo;8;Spamton NEO;32
+vectorman;0;Vectorman;0
+demi-fiend;13;Demi-Fiend;55
+vibri;8;Vibri;33
+wl3wario;0;WL3 Wario;0
+maria;11;Maria;274
+ss13clown;8;SS13 Clown;35
+aniki;37;Aniki;241
+peppino;49;Peppino;518
+motobug;12;Motobug;71
+charmy;8;Charmy;30
+flonne;29;Flonne;937
+dark_pit;0;Dark Pit;0
+hornets;13;Hornets;92
+reichtangle;0;Reichtangle;0
+raymanorigins;6;Rayman;23
+team_rocket;1;Team Rocket;1
+mungdaal;1;Mung Daal;3
+bandana_dee;4;Bandana Dee;7
+bigthecat;13;Big the Cat;58
+bomberman;3;Bomberman;7
+daisy;0;Daisy;0
+garfield;17;Garfield;70
+sparkster;15;Sparkster;102
+mephiles;0;Mephiles;0
+johnnybravo;0;Johnny Bravo;0
+megamanx;6;MegamanX;23
+hotel;18;hotel;62
+buruma;1;Bulma;1
+flipnote-frog;32;Flipnote Frog;225
+megamancero;8;Mega Man Zero;34
+chainchomp;3;Chain Chomp;4
+frog_in_a_car;28;Frog in a Car;142
+madrat;0;Mad Rat;0
+eggr;21;Eggrobo;178
+thwomp;17;Thwomp;71
+hibiki;2;Hibiki;3
+nights;10;NiGHTS;184
+jevil;38;Jevil;168
+homestarrunner;1;Homestar Runner;3
+the_king;12;The King;66
+shantae;13;Shantae;54
+shadow;26;Shadow;235
+madonna;35;Madonna;375
+goku;16;Goku;24
+918volt;12;9-Volt and 18-Vo;60
+knight;8;The Knight;32
+grotesquesteve;27;Grotesque Steve;71
+bratgirl;0;Bratgirl;0
+heady;11;Headdy;36
+mactonight;11;MoonMan;250
+liseproject;0;LISE Project;0
+axl;4;Axl;14
+drybonerc;10;Drybones;22
+metal_knuckles;9;Metal Knuckles;35
+hammerbro;0;Hammer Bro;0
+johnward;18;John Ward;119
+yotsuba;2;Yotsuba;5
+hsien-ko;10;Hsien-Ko;42
+sdhornet;17;Hornet;81
+sinistar;0;Sinistar;0
+shumagorath;9;Shuma Gorath;37
+robosonic;14;Robo-Sonic;143
+annoyingdog;11;Annoying Dog;49
+gyarados;0;Gyarados;0
+beavis;1;Beavis;1
+jet;12;Jet;66
+temjin;7;Temjin;39
+madotsuki;21;Madotsuki;98
+travis;0;Travis;2
+megaman;7;Mega Man;28
+spyro;0;Spyro;0
+fakecoco;0;Fake Coco;0
+kingofthecosmos;4;King of Cosmos;8
+granny;2;Script Granny;9
+linne;2;Linne;3
+riamu;8;Riamu;29
+caterkiller;11;Caterkiller;647
+kiryu;0;Kiryu Kazuma;0
+blitztank;10;Blitztank;40
+amy;7;Amy;26
+montymole;0;Monty;0
+okuu;13;Utsuho Reiuji;57
+zero;11;Zero X4;64
+mk64luigi;0;MK64 Luigi;0
+sue;26;Sue Sakamoto;678
+cosmo;0;Cosmo;0
+scorpionmk2;6;SCORPION;27
+stormalbatross;8;Storm;35
+etna;24;Etna;703
+retro_pikachu;0;Retro Pikachu;0
+sketchfox;5;Sketchfox;23
+chuchu;3;ChuChu;4
+nsisabella;1;Isabella;1
+wayne;1;Wayne;1
+sketchog;7;Sketchog;28
+kermitthefrog;10;Kermit;35
+tf2-soldier;2;Soldier;5
+superluigi;24;Luigi;159
+blaze;8;Blaze;28
+scratch;12;Scratch;117
+nsmegumi;0;Megumi;0
+space;2;Space Exploratio;5
+hereiam;0;Checkpoint Crate;0
+gustavoandbrick;0;Gustavo & Brick;0
+omega;20;E-123 Omega;93
+protoman;1;ProtoMan;1
+morshu;19;Morshu;85
+mk64toad;20;MK64 Toad;110
+nitroman;14;Nitro Man;47
+superhangon;5;Super Hang-On;18
+ashley;11;Ashley;272
+dantekrt;33;Dante;263
+sksonic;13;Skating Sonic;47
+arrowhead;8;R9A Arrowhead;25
+heavy;12;Heavy;64
+curlybrace;8;Curly Brace;20
+beat;10;Beat;843
+agent_rouge;13;Agent Rouge;795
+eggthief;0;Egg Thief;0
+rena;13;Rena;154
+kaneda;12;Shotaro Kaneda;118
+slimeterraria;7;Slime;16
+vandarkholme;1;Van Darkholme;3
+wheelierider;6;Wheelie Rider;18
+pepsiman;8;Pepsiman;16
+koopa_kid;0;Koopa Kid;0
+setokaiba;0;Seto Kaiba;0
+boo;0;Boo;0
+sakura;11;Sakura Shinguji;45
+masterchief;3;Master Chief;10
+sirdan;1;Sir Daniel;2
+vector;18;Vector;97
+hatapon;1;Hatapon;4
+sggg;12;SEGA;126
+marge;3;Marge Simpson;8
+reankart;13;Rean Schwarzer;106
+omochao;18;Omochao;87
+puttputt;6;Putt-Putt;25
+quote;2;Quote;4
+bayonetta;3;Bayonetta;11
+nsliz;0;Liz;0
+ampharos;0;Ampharos;0
+hank;4;Hank;11
+mk64mario;48;MK64 Mario;259
+smug_bird;2;Wave;3
+lowtiergod;16;LowTierGod;69
+egg.scarlet;10;Bunnie;146
+gum;17;Gum;77
+princevegeta;11;Vegeta;14
+sturm;0;Sturm;0
+osharebones;0;Dapper Bones;0
+irongiant;6;Iron Giant;22
+eddieriggs;0;Eddie Riggs;0
+mmvolnutt;4;Megaman Volnutt;10
+mothmansmt;6;Mothman;19
+coldsteel;11;Coldsteel;42
+acrid;12;Acrid;102
+terrycrews;2;Terry Crews;5
+moai;21;Moai;72
+richter;0;Richter Belmont;0
+plague;11;Plague Knight;35
+parappa;8;PaRappa;29
+balan;0;Balan;0
+prinny;15;Prinny;53
+maxwell;2;Maxwell;7
+earthworm_jim;12;Earthworm Jim;68
+crashbandicoot;12;Crash Bandicoot;42
+metall;1;Metall;1
+nia;0;Nia;0
+aosthrobotnik;19;AoStH Robotnik;169
+cptfalcon;5;Captain Falcon;18
+porkyminch;16;Porky Minch;193
+tf2-medic;5;Medic;17
+mithrix;5;Mithrix;28
+solaire;4;Solaire;8
+arle;16;Arle;125
+slds;2;Solid Snake;3
+copyx;4;Copy X;15
+nina_cortex;0;Nina Cortex;0
+sega_bass_fishin;31;Sega Bass Fishin;265
+mecha;15;Mecha Sonic;1125
+conker;0;Conker;0
+yiik;7;Alex Eggleston;23
+kingpauliii;0;King Chicken;0
+knuckles;10;Knuckles;37
+pikachu;3;Pikachu;5
+kc_tonysoprano;2;TONY SOPRANO;10
+mk64wario;0;MK64 Wario;0
+tails;24;Tails;130
+sirpercival;5;Sir Percival;20
+meowscarada;1;Meowscarada;2
+blinx;13;Blinx;51
+brownbricks;19;MCw/Gadget;467
+mort;0;Mort The Chicken;0
+doomimp;4;Imp;12
+neku;0;Neku Sakuraba;0
+joeywheeler;3;Joey Wheeler;8
+waluigibike;12;Waluigi;164
+metalslug;3;Metal Slug;11
+ptnoise;0;Noise (PT);0
+ecterim;0;Ecterim;0
+outrun;5;OutRun;12
+eggman;7;Dr. Eggman;17
+metalsonic;27;Metal Sonic;221
+falco;2;Falco Lombardi;13
+reimu;4;Reimu Hakurei;8
+alucard;0;Alucard;0
+propane;5;Hank Hill;11
+odie;0;Odie;0
+klonoa_lunatea;34;Klonoa;674
+mariar;0;Maria Renard;0
+danbackslide;1;Dan Backslide;4
+mk64dk;16;MK64 DK;109
+tobeymaguire;2;The Human Spider;5
+crono;14;Crono;150
+tf2-demoman;0;Demoman;0
+misty_p;4;Misty & Psyduck;17

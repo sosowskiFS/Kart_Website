@@ -1,521 +1,416 @@
-236;14;0;Ancient Piston
-136;1;0;Municipal Meadow
-336;0;0;Fetid Citadel
-537;17;0;Metro
-137;1;0;Tricircle Marina
-337;1;0;Forsaken Bog
-640;16;3;Wind Tunnels
-851;31;0;Cloudtop Spire
-651;6;0;DKR Haunted Woods
+236;5;1;Ancient Piston
+43;0;0;Cloud Tops
+73;19;0;Pizza Panic
+63;8;0;Coral Cave
+537;3;0;Metro
+737;1;0;Golf
+137;0;0;Tricircle Marina
+159;0;0;SMK Battle
+851;5;1;Cloudtop Spire
+359;1;0;CK Dungeon
+759;7;0;MMBC Street
 151;0;0;Bumper Carts
-551;36;3;Tower of Fate
-251;16;0;Dynamite Wilderness
-146;0;0;Fantastic Tabernacle
-246;22;0;Snowdust Valley
-547;21;0;Tiled Byway
-847;58;0;Mushroom Hill
+859;10;0;Techno Station
+138;0;0;Tinkerer's Arena
+13;3;0;Midnight Meadow
+33;1;0;Ancient Tomb
+736;1;0;Final Tower
+858;2;2;Sakura Forest
+246;5;0;Snowdust Valley
+62;11;0;Plant Kingdom
+72;2;1;Cosmic Coast
+92;0;0;Forbidden Temple
+847;12;0;Mushroom Hill
 850;0;0;MK8D Urchin Underpass
 147;0;0;Bad Taste
-650;8;0;Amethyst Drive
+650;4;0;Amethyst Drive
 140;0;0;Techno Hill
-540;57;1;Final
-340;47;0;Evaluation Summit
-546;13;2;Midnight Ritual
-846;16;0;VIRTUAL
-196;18;0;Volatile Volcano
-997;58;0;Planet Wisp
-596;4;3;Hyrule Town Market 
-893;18;4;Sakura Serenity
-296;1;0;Gay Energy
-197;16;0;Aerial Badlands
-493;31;0;Titanic Monarch
-497;49;0;Construction Gym
-297;3;0;Crazy Eights
-1;92;62;Green Hills
-3;18;0;Northern District
+329;9;0;Bio Satellite
+540;14;0;Final
+729;6;0;Spelunky
+340;9;0;Evaluation Summit
+529;2;0;Flying Machine
+148;0;0;Spotlight Syndicate
+348;12;0;Shuffle Square
+248;5;0;Ridge Turnpike
+12;0;0;Diamond Square
+746;15;0;Funky Factory
+32;4;2;Toxic Palace
+196;4;0;Volatile Volcano
+997;18;0;Planet Wisp
+828;7;0;Motobug Motorway
+197;1;0;Aerial Badlands
+493;8;0;Titanic Monarch
+497;18;0;Construction Gym
+1;11;7;Green Hills
+3;4;0;Northern District
 2;0;0;Dark Race
-5;13;0;Daytona Speedway
-4;8;0;Darkvile Garden
-7;18;1;Sonic Speedway
-6;9;0;Egg Zeppelin
-996;14;0;Opal Coast
-8;22;3;Hill Top
-696;5;2;Grand Metropolis
-282;3;1;Viridian Cliffside
-482;5;2;Disk Operating System
-382;12;0;DKR Star City
-981;3;0;ANTE-STATION
-781;8;1;INCHWORM FOREST
+5;4;0;Daytona Speedway
+4;2;0;Darkvile Garden
+7;6;0;Sonic Speedway
+6;1;2;Egg Zeppelin
+9;4;0;Misty Maze
+8;2;0;Hill Top
+198;0;0;MMBN Battlefield
+482;3;0;Disk Operating System
+981;4;0;ANTE-STATION
 481;0;0;Rainny Savannah
-181;47;1;Crisis City
-281;5;3;Cutout Warehouse
-582;36;0;Seaside Getaway
-192;4;1;Square Quartet
-873;1;0;Submerged Shipwreck
-1018;7;0;Hysterical Trinket
+181;18;0;Crisis City
+728;11;0;Monkey Island
+528;5;0;Clockwork Tower
+973;2;0;Diamond Dust
+924;9;1;Wacky Workbench
+1018;0;4;Hysterical Trinket
+47;2;2;SM Special
+788;10;1;Black Comet Way 
+67;11;0;Pirate Island
+57;5;0;Coastal Temple
 980;0;0;Mushroom Spires
-573;14;0;Hadal Trench
-473;28;1;SRB2 Metallic
-580;23;0;Thermal Terminal
-591;13;0;Killer Marathon
-592;10;7;Sky Meadow
-892;18;1;Steampunk Garden
+573;4;0;Hadal Trench
+473;10;0;SRB2 Metallic
+580;9;0;Thermal Terminal
+499;13;0;Showtime Showdown
+699;0;0;Toxic Palace
+591;1;1;Killer Marathon
+578;8;0;Weapons Hangar
+27;3;1;Aurora Atoll
+17;3;0;Sub-Zero Peak
+592;3;3;Sky Meadow
+714;6;0;Dusk Falls
+999;0;0;Hyrule Forest
 162;0;0;SMK Battle
-562;2;0;Funny Avenue
-462;12;0;Autumn Ring
-362;3;0;SRB2 Frozen
-283;0;0;Clock Towers
-734;20;0;ChuChu Space Stadium
-590;23;0;Wandering Falls
-534;2;0;Suburban Scramble
-380;18;0;Endless Mine
-280;0;0;Seaside Labyrinth
-862;7;0;Sepia Swamp
-762;23;0;MMBC South Pole
-356;2;1;Chemical Facility
-256;15;0;RR Seaside Route 765
+307;15;0;Mantalith Temple
+36;0;0;Kodachrome Void
+407;27;0;Hyakkiyako Streets
+362;1;0;SRB2 Frozen
+66;15;0;Blizzard Peaks
+807;9;0;Penthouse Plaza
+306;23;0;Lilac Lake
+734;15;0;ChuChu Space Stadium
+590;9;0;Wandering Falls
+534;1;0;Suburban Scramble
+480;0;0;!Gnome Forest?
+369;1;0;Blue Mountain
+225;2;0;Geofront
+525;2;0;Iron Whale
+725;3;0;Techno Hill
+488;8;0;Gigapolis
+825;9;0;Splashdown
+762;8;0;MMBC South Pole
+26;0;0;Desert Palace
+969;17;0;Metal Harbor
+524;6;0;Kodachrome
+624;17;0;Pridemoor Classic
+724;1;0;Neo Arid Sands
+71;2;0;GigaByte Glade
+356;1;0;Chemical Facility
+51;3;1;SMK Donut
 156;0;0;Trigger Happy
-472;23;0;SRB2 Inferno
-857;4;0;Roundabout Wasteland
-557;9;0;Egg Reverence
-657;37;0;Cosmic Eclipse
+472;4;1;SRB2 Inferno
+968;10;0;ZigZag Forest
+868;0;0;Submerged Shipwreck
+657;12;0;Cosmic Eclipse
 357;1;0;3 Color Drive
 153;0;0;Power Plant
-353;6;0;Peach's Castle
-553;19;0;Mermaid Lake
-972;30;0;Killer Skies
-956;47;0;Windmill Isle
-856;14;0;Green Park
-656;46;0;Super Rainbow
-556;14;0;Sundae Drive
-366;0;0;SRB2 Meadow
-466;25;0;Panic City
-663;27;0;Grit Pit
-967;15;0;Hilltop Haunt 
-342;33;2;Avant Acropolis
-767;2;0;Vanilla Zig
-542;17;0;Dig
-567;7;0;NEO Test
-467;14;0;Molten Manor
+1020;9;1;Flesh Paradise
+353;1;0;Peach's Castle
+553;6;0;Mermaid Lake
+579;22;0;Final Fall
+479;0;0;Kid Party?
+966;2;0;VR_CORRUPTION
+368;0;0;Peach's Castle B
+972;9;0;Killer Skies
+485;12;1;Omega Rainbow
+956;13;0;Windmill Isle
+856;7;0;Green Park
+21;3;5;Canyon Rush
+11;4;0;Sunbeam Paradise
+70;4;1;Drippy Docks
+863;6;0;Blistering Shelter
+466;3;0;Panic City
+142;0;0;Colosseum
+967;0;0;Hilltop Haunt 
+342;10;0;Avant Acropolis
+31;5;0;Vanilla Hotel
+542;4;0;Dig
+567;0;0;NEO Test
+467;4;0;Molten Manor
 367;0;0;battal BOWL
-167;26;2;Salt Quarantine
-463;24;0;Sky Babylon
-363;3;1;Black Bliss
-642;3;0;Azure Vertigo
-966;11;0;VR_CORRUPTION
-842;34;1;Green Tropics
-866;6;2;Magical Monolith
-566;4;1;Conveyor
-764;7;0;MMBC Toy Factory
-254;37;0;BACKROOM VELOCITY
-154;0;0;Tails' Lab
-354;2;0;Arid Sands
-655;47;0;Stardust Drive
-1026;23;0;Eientei Mansion
-855;3;0;Digital Botany
-155;0;0;Armored
-255;10;0;VR Big Forest
-355;3;0;Volcanic Valley
-1021;0;0;Flesh Eden
-974;16;0;AQUA PLANET
-874;3;0;Magical Monolith
-1011;0;0;Black Core
-164;0;0;MK64 Double
-965;27;0;Crystal Caverns
-364;6;1;FZ Silence
-464;39;1;Azure Paradise
-665;2;1;Yoshi Island
-565;8;1;Desert Rift
-165;21;1;Eurobeat Highway
-465;17;0;Roasted Ruins
-365;4;0;SMK Rainbow
-1034;1;0;MKDD NINTENDO
-944;12;0;Four Leaf Cleaver
-844;31;1;F-ZERO MUTE
-218;22;0;Plains of Passage
-318;0;0;Carnival City
-1001;8;0;Azure Island
-535;5;0;Cascade
-635;6;0;Boulderstone Alpines
-335;7;0;Harmony Villa
-235;17;9;Desert Bus
-654;5;0;Cosmic Eclipse
-554;26;0;Euro Mountain
-144;0;0;Eerie Grove
-244;0;0;Jungle Fort Long
-845;25;1;Stardust Speedway
-609;18;0;Lilac Conservatory
-545;0;0;Bell
-345;40;3;Vermilion Vessel
-245;19;0;Virtua Circuit
-145;0;0;Rusty Rig
-608;10;0;Nuclear Nova
-808;73;0;Balloon Park
-895;8;0;Molten Mankind
-995;11;1;Amigo's City
-619;15;0;MK64 Bowser's
-594;32;0;Hong Kong Streets
-719;27;0;Imperial Rose Garden
-219;37;1;Pridemoor Keep
-319;56;0;Ice Paradise
-495;3;0;Verdant Raceway
-618;4;1;SD2 Casino Night
-684;22;1;Blizzard Peaks Sprint
-875;2;1;Touge
-975;11;0;ANTE-STATION
-574;46;0;MKWii Coconut
-474;27;1;SRB2 Warped
-374;6;2;Virtual Raceway
-475;11;3;Frigid
-575;8;0;Eerie Catacombs
-375;27;0;Emerald Hill
-694;3;0;Waterway Circuit
+878;6;0;Cliffside Castle
+167;5;0;Salt Quarantine
+463;4;0;Sky Babylon
+504;5;0;Rec 'N
+163;0;0;MK64 Block
+363;3;0;Black Bliss
+305;0;0;Square Quartet
 894;0;0;Mayship Marine
-785;31;1;Westopolis Juncture
-484;8;1;The Untitled
-284;0;0;Downhill Jam
-485;48;0;Omega Rainbow
-53;0;0;SMK Ghost
-848;46;0;Metallic Madness
-73;51;0;Pizza Panic
-63;21;0;Coral Cave
-159;0;0;SMK Battle
-359;4;2;CK Dungeon
-759;32;1;MMBC Street
-238;28;0;Warehouse Skatepark
-338;0;0;Mundane Purification
-138;0;0;Tinkerer's Arena
-13;8;1;Midnight Meadow
-33;4;0;Ancient Tomb
-23;5;1;Silvercloud Island
-858;9;2;Sakura Forest
-52;9;2;SMK Mario
-62;31;0;Plant Kingdom
-72;6;1;Cosmic Coast
-92;0;0;Forbidden Temple
-329;9;0;Bio Satellite
-729;45;0;Spelunky
-529;11;1;Flying Machine
-148;0;0;Spotlight Syndicate
-348;42;0;Shuffle Square
-248;23;0;Ridge Turnpike
-548;12;0;Vanilla
-12;0;0;Diamond Square
-22;10;1;Casino Resort
-32;24;2;Toxic Palace
-828;32;1;Motobug Motorway
-339;60;0;765 Stadium
-139;0;0;Clucky Farms
-539;18;0;Arena
-198;1;0;MMBN Battlefield
-589;23;0;DKR Jungle Falls
-328;0;0;Empty Sanctum
-728;39;0;Monkey Island
-528;16;0;Clockwork Tower
-824;57;0;Ballistic Reef
-77;6;2;SCARLET GARDENS
-888;2;0;Cliffside Castle
-788;47;4;Black Comet Way 
-67;36;0;Pirate Island
-57;22;0;Coastal Temple
-499;44;1;Showtime Showdown
-699;0;0;Toxic Palace
-599;10;0;Zora's Domain
-615;9;0;Airborne Plaza
-715;1;0;SS91 Miracle Lancer
-578;33;0;Weapons Hangar
-27;7;0;Aurora Atoll
-17;13;1;Sub-Zero Peak
-714;23;0;Dusk Falls
-999;0;0;Hyrule Forest
-76;7;0;FLIPGOOP STATION
-307;69;1;Mantalith Temple
-207;47;0;Chimera Tower
-36;0;0;Kodachrome Void
-46;16;5;SD2 Balloon
-56;5;0;Lake Margorite
-66;52;0;Blizzard Peaks
-807;16;0;Penthouse Plaza
-306;84;0;Lilac Lake
-406;3;1;Starlight
-606;15;0;Desert Dream
-569;31;0;Lazy Summit
-369;4;1;Blue Mountain
-225;14;0;Geofront
-525;10;1;Iron Whale
-425;0;0;MK64 Skyscraper
-725;14;0;Techno Hill
-488;29;1;Gigapolis
-825;33;0;Splashdown
-16;10;0;Paradise Hill
-588;17;0;Sketchberry Spring
-969;58;0;Metal Harbor
-524;21;0;Kodachrome
-624;47;0;Pridemoor Classic
-869;5;0;Cerulean Riviera
-71;9;0;GigaByte Glade
-51;8;1;SMK Donut
+857;0;0;Roundabout Wasteland
 41;0;0;KKR Ganbare
-968;24;0;ZigZag Forest
-868;0;0;Submerged Shipwreck
-81;1;0;MONOCHROME RIFT
-1020;23;1;Flesh Paradise
-579;49;0;Final Fall
-1032;1;0;Hexagon Heat
-31;15;0;Vanilla Hotel
-21;10;1;Canyon Rush
-11;18;1;Sunbeam Paradise
-779;9;1;Winter Garden
-60;12;0;Crimson Core
-70;7;0;Drippy Docks
-40;16;3;Eggman's Nightclub
-50;27;1;MKSC Rainbow
-978;22;0;STORM STATION
-80;8;0;SKYSCRAPER LEAPS
-878;5;0;Cliffside Castle
-305;1;0;Square Quartet
-205;31;0;Arctic Lagoon
-105;13;1;MKSC Cheese Land
-605;7;0;Toffee Tor
-405;8;2;Mystic Cave
-204;7;0;SIK Dragon Valley
-568;9;2;Sleeping Egg
-468;23;0;Toxic Tundra
-104;43;0;Digital Dimension
-20;27;0;Megablock Castle
-30;14;1;Midnight Channel
-404;4;1;Ice Cap
-10;8;0;Grand Metropolis
-533;3;1;Neon Sands
-333;48;0;Sublime Bastion
-252;13;2;Meteor Desert
-352;1;0;Crystal Abyss
-552;13;1;Botanic Base
-1022;14;0;Cosmic Rift
-733;30;0;Picture City
-330;23;5;Cosmic Rift
-1000;26;0;Hilltop Peaks
-530;11;1;Stranded Ship
-643;6;0;Sewer System
-843;47;1;F-ZERO BIG
-304;0;0;Lilac's Treehouse
-302;0;0;Mansion Maze
-614;3;0;ThornRose Mansion
-327;1;0;Butter Battlefield
-701;10;4;THUNDER PISTON BAYBEE
-622;10;0;Blazing Bandwidth
-522;39;0;House of the Undying
-102;19;0;Teiai Towers
-143;0;0;Dried Battledune
-222;14;0;Lost City
-44;3;1;CK Cloud
-45;0;0;CK Regal
-543;18;0;Kart Manufactory
-576;9;1;Tempest Ridge
-43;0;0;Cloud Tops
-521;38;0;Snowy Speedpeaks
-621;21;0;SRB2 Greenflower
-232;3;1;Crackhead District
-998;0;0;VB Raceway
-822;11;0;Canyon Cascade
-722;26;0;Foggy Complex
-334;0;0;Sunken Remnant
-730;54;0;Planet Flora
+360;0;0;Diamond Square
+256;4;1;RR Seaside Route 765
 160;0;0;SMK Battle
-941;10;0;Needy Madness
-721;8;0;Rusty Rig
-821;39;0;Liquidation Circuit
-322;117;0;Green Cave
-577;31;0;Mission Street
-217;14;4;Galf Legacy
-317;0;0;Ancient Labyrinth
-613;15;0;Klik N' Park
-75;6;1;DIMENSION DISASTER
-65;30;0;Haunted Ship
-55;0;0;SMK Vanilla
-213;19;1;Crazy Canyon
-35;19;2;Volcanic Valley
-532;11;1;Desert Rift
-216;21;0;B A N A N A S
-407;40;4;Hydrocity
-859;22;0;Techno Station
-716;0;0;Prisonic Fairytale
-713;17;2;Dimensional Cruise
-970;13;0;Skeletal Sands
-638;0;0;Lava Reef
-870;9;0;Ironbed River
-331;1;0;Chip's Battlezone
-538;10;0;Freefall
-42;0;0;CK Chao
-932;15;1;Windy Canyon
-712;15;0;Rally Refinery
-732;39;1;Delfino Plaza
-247;0;0;Mount Acres Circuit
-25;32;0;Petroleum Refinery
-15;5;2;Pleasure Castle
-243;42;2;Burning Bone
-133;33;0;Misty Mountainpass
-233;17;2;Alpine Cake
-731;74;0;Youkai Mountain
-152;0;0;Death Egg's Eye
-303;5;0;Unist Hell
-523;60;0;Funky Fortress
-1016;3;0;Futuristic Boardwalk
-74;26;2;Banger Boneyard
-194;20;0;Crispy Canyon 
-54;0;0;SMK Bowser
-830;0;0;Floral Dimension
-527;0;0;Sky Based
-1023;9;0;Motherlode Canyon
-652;47;2;Monster Monarch
-326;0;0;Overgrown Castle
-829;10;0;Lubrication Lagoon
-827;40;1;Opulence
-929;5;0;Resort Island
-726;53;0;Death Egg's Eye
-723;22;0;Neo Metropolis
-823;0;0;Wave Dimension
-748;13;2;Hydrocity
-993;12;1;O'raceway
-826;22;1;Hyudoro Hideaway
-1029;0;0;Pool Party
-802;21;0;Ice Cap 
-758;60;0;Mayday Submarine
-658;1;0;Monster Monarch
-763;4;0;MMBC Arms Factory
-14;17;0;Twinkle Cart
-320;19;1;Hot Crater
-1019;36;1;Forbidden Monolith
-242;2;0;CTGP Mushroom Peaks
+862;3;1;Sepia Swamp
+60;2;0;Crimson Core
+304;0;0;Lilac's Treehouse
+468;8;0;Toxic Tundra
+104;13;0;Digital Dimension
+20;5;0;Megablock Castle
+30;2;0;Midnight Channel
+566;2;0;Conveyor
+10;2;0;Grand Metropolis
+280;0;0;Seaside Labyrinth
+533;1;0;Neon Sands
+462;4;0;Autumn Ring
+333;12;0;Sublime Bastion
+233;5;0;Alpine Cake
+133;8;0;Misty Mountainpass
+798;0;0;Sunshine Coastline
+552;4;0;Botanic Base
+125;8;0;CTR N. Gin Labs
+970;2;0;Skeletal Sands
+1000;6;1;Hilltop Peaks
 1010;0;0;Desolate Twilight
-9;21;0;Misty Maze
-220;7;3;Lich Yard
+87;10;0;Salt Factory
+1022;5;0;Cosmic Rift
+764;2;0;MMBC Toy Factory
+733;7;1;Picture City
+254;8;0;BACKROOM VELOCITY
+154;0;0;Tails' Lab
+56;1;0;Lake Margorite
+354;2;0;Arid Sands
+824;12;0;Ballistic Reef
+655;6;1;Stardust Drive
+1026;8;0;Eientei Mansion
+855;5;0;Digital Botany
+330;4;0;Cosmic Rift
+255;6;0;VR Big Forest
+852;2;0;Chartreuse Woods
+469;10;0;Hazardous Caverns
+1016;2;0;Futuristic Boardwalk
+996;6;0;Opal Coast
+339;11;0;765 Stadium
+232;1;0;Crackhead District
+231;2;0;Jelly Circuit 2
+471;0;0;SRB2 Emerald
+843;11;0;F-ZERO BIG
+998;0;0;VB Raceway
+846;5;1;VIRTUAL
+22;1;1;Casino Resort
+829;3;0;Lubrication Lagoon
+364;1;1;FZ Silence
+974;4;0;AQUA PLANET
+522;15;0;House of the Undying
+774;11;0;New Space
+322;34;0;Green Cave
+222;0;0;Lost City
+343;21;1;Thousand March
+1011;0;0;Black Core
+543;2;0;Kart Manufactory
+164;0;0;MK64 Double
+965;9;0;Crystal Caverns
+521;19;0;Snowy Speedpeaks
+464;8;0;Azure Paradise
+665;1;0;Yoshi Island
+565;1;0;Desert Rift
+822;0;0;Canyon Cascade
+221;4;0;Explodatorium
+25;9;0;Petroleum Refinery
+165;8;0;Eurobeat Highway
+465;2;0;Roasted Ruins
+365;2;0;SMK Rainbow
+721;4;0;Rusty Rig
+821;10;0;Liquidation Circuit
+143;0;0;Dried Battledune
+374;5;4;Virtual Raceway
+217;3;2;Galf Legacy
+317;0;0;Ancient Labyrinth
+474;7;0;SRB2 Warped
+19;3;0;Sand Valley
+65;11;0;Haunted Ship
+55;0;0;SMK Vanilla
+213;4;0;Crazy Canyon
+35;4;1;Volcanic Valley
+532;3;0;Desert Rift
+216;5;0;B A N A N A S
+332;14;4;Tubular Trashzone
+530;4;1;Stranded Ship
+716;0;0;Prisonic Fairytale
+844;9;0;F-ZERO MUTE
+42;0;0;CK Chao
+150;0;0;Fakery Way
+251;9;0;Dynamite Wilderness
+331;0;0;Chip's Battlezone
+318;0;0;Carnival City
+352;1;0;Crystal Abyss
+1001;3;0;Azure Island
+848;9;0;Metallic Madness
+535;0;1;Cascade
+635;4;0;Boulderstone Alpines
+335;2;0;Harmony Villa
+15;2;1;Pleasure Castle
+135;5;0;PizzaScape
+830;0;0;Floral Dimension
+930;3;7;Better Resort Island
+731;23;0;Youkai Mountain
+29;4;1;Red Barrage
+1023;1;0;Motherlode Canyon
+327;0;0;Butter Battlefield
+49;0;0;MKDS Peach
+74;4;0;Banger Boneyard
+59;13;0;Honeybee Industry
+54;0;0;SMK Bowser
+64;5;0;Machine Labyrinth
+34;0;0;CK Cloud
+44;1;1;CK Cloud
+23;3;0;Silvercloud Island
+538;4;1;Freefall
+355;2;0;Volcanic Valley
+827;5;0;Opulence
+654;2;0;Cosmic Eclipse
+554;13;0;Euro Mountain
+723;6;0;Neo Metropolis
+102;14;0;Teiai Towers
+155;0;0;Armored
+1029;0;0;Pool Party
+826;11;0;Hyudoro Hideaway
+244;0;0;Jungle Fort Long
+802;2;0;Ice Cap 
+539;8;0;Arena
+345;14;0;Vermilion Vessel
+545;0;0;Bell
+14;6;0;Twinkle Cart
+320;8;1;Hot Crater
+245;9;0;Virtua Circuit
+145;0;0;Rusty Rig
+720;9;0;Magma Valley
+713;5;0;Dimensional Cruise
+220;5;0;Lich Yard
 801;0;0;Starlight
-896;6;1;Outset Broadcast
-867;6;0;Sweet Wonderland
-91;0;0;Midnight Channel
-977;35;0;NIGHTLIT WOODS
-376;12;0;Palmtree Panic Past
-1033;1;0;Wind Fish
-800;25;0;Angel Island
-700;6;0;Eggman's Nightclub
-979;0;0;V2.0.X SPECIAL STAGE
+727;8;0;Puyo Puyo Gardens
+726;12;0;Death Egg's Eye
+763;7;0;MMBC Arms Factory
+977;6;0;NIGHTLIT WOODS
+978;6;0;STORM STATION
+800;4;0;Angel Island
+576;4;0;Tempest Ridge
+152;0;0;Death Egg's Eye
+366;0;0;SRB2 Meadow
+562;2;1;Funny Avenue
 620;0;0;DKR Greenwood
-316;9;0;Labyrinth
 612;0;0;Sub-Zero Citadel
-617;11;9;A Bud
-377;15;0;Angel Island
-803;15;1;Lava Reef
-212;49;0;Sky-high Skyscrapers
-611;10;1;Route Three-One
-221;25;0;Explodatorium
-157;0;0;Mementos
-170;55;0;Brimstone Ruins
-211;9;2;Mythic Mansion
-370;1;0;Daytona Hell
-470;7;0;Lake Margorite 2
-570;13;0;Robotnik Winter
-860;27;0;Splash Heights
-39;11;1;Virtual Highway
-660;17;0;Erizo Isle
-760;9;0;MMBC Mountain
-1017;2;1;Windy Valley
-641;3;0;Central Operations
-572;17;0;Jade Driftway
-757;0;0;Sunset Park
-787;32;1;G.U.N Fleet Edge
-914;72;3;DKR Tricky's Course
-125;32;0;CTR N. Gin Labs
-905;17;0;Scorch Desert
-286;39;1;Marble Drome
-231;9;1;Jelly Circuit 2
-486;19;1;Home
-203;8;0;Whispering Mansion
-973;20;1;Diamond Dust
-924;38;0;Wacky Workbench
-494;4;0;Lake Margorite
-47;2;3;SM Special
-387;33;0;Moto's Motocross
-287;39;0;Milk Capital
-37;9;0;Boiling Bedrock
+652;27;0;Monster Monarch
+170;11;0;Brimstone Ruins
+808;15;0;Balloon Park
+212;20;0;Sky-high Skyscrapers
+211;1;0;Mythic Mansion
+719;8;0;Imperial Rose Garden
+194;8;0;Crispy Canyon 
+995;1;0;Amigo's City
+712;3;0;Rally Refinery
+812;5;0;Three seven speedway
+470;3;0;Lake Margorite 2
+494;3;0;Lake Margorite
+219;4;0;Pridemoor Keep
+638;0;0;Lava Reef
+319;11;0;Ice Paradise
+195;10;0;Melty Manor
+594;7;0;Hong Kong Streets
+577;9;0;Mission Street
+495;0;0;Verdant Raceway
+287;14;0;Milk Capital
+787;4;0;G.U.N Fleet Edge
+53;0;0;SMK Ghost
+568;1;0;Sleeping Egg
+569;7;0;Lazy Summit
+286;6;0;Marble Drome
+103;4;0;Liminal Landscape
+486;5;1;Home
+570;4;0;Robotnik Winter
+126;10;0;CTR Cortex Castle
+303;0;0;Unist Hell
+218;8;0;Plains of Passage
+136;0;0;Municipal Meadow
+387;7;0;Moto's Motocross
+803;6;1;Lava Reef
+588;4;0;Sketchberry Spring
 487;0;0;Azure Lake
-661;37;0;Fearnought Factory
-761;51;0;MMBC Crystal
-861;3;0;Green Park
-961;21;0;Planet Laeau 
-686;1;0;Sleeping Egg
-852;4;0;Chartreuse Woods
-301;0;0;Vessel Vendetta
-798;2;0;Sunshine Coastline
-600;24;0;Cathedral
-786;42;1;Drag Matrix
+661;10;0;Fearnought Factory
+761;12;0;MMBC Crystal
+861;2;0;Green Park
+961;8;0;Planet Laeau 
+656;17;0;Super Rainbow
+139;0;0;Clucky Farms
+238;14;0;Warehouse Skatepark
+551;4;4;Tower of Fate
+663;4;2;Grit Pit
+786;6;4;Drag Matrix
 886;0;0;DKR Frosty Village
 161;0;0;SMK Battle
-200;16;0;Joker City
-361;5;1;PWR Retro
-461;29;0;Verdant Raceway
-930;27;8;Better Resort Island
-368;0;0;Peach's Castle B
-224;3;0;Chilly Crystal
-783;2;2;Vanilla Zig
-607;17;1;City Parkway
-879;43;0;Meteor Mine
-806;6;0;Bedroom Brickway
-469;27;0;Hazardous Caverns
-87;35;0;Salt Factory
-59;51;0;Honeybee Industry
-49;0;0;MKDS Peach
-960;14;0;	Hot Top Volcano
-29;9;0;Red Barrage
-26;0;0;Desert Palace
-724;8;0;Neo Arid Sands
-79;10;1;FROZEN PRODUCTION
-124;7;0;MKDS Airship Fortress
-771;57;0;Serpent Shrine
-150;0;0;Fakery Way
+722;5;0;Foggy Complex
+361;0;0;PWR Retro
+461;7;0;Verdant Raceway
+730;5;0;Planet Flora
+732;12;0;Delfino Plaza
+1019;9;0;Forbidden Monolith
+24;3;1;Blue Mountain
+845;9;0;Stardust Speedway
+144;0;0;Eerie Grove
+823;0;0;Wave Dimension
+146;0;0;Fantastic Tabernacle
+45;0;0;CK Regal
+760;4;0;MMBC Mountain
+660;2;1;Erizo Isle
+39;2;0;Virtual Highway
+860;6;0;Splash Heights
+527;0;0;Sky Based
+523;20;0;Funky Fortress
+772;7;0;Classic Space
+247;0;0;Mount Acres Circuit
+771;15;0;Serpent Shrine
+975;8;1;ANTE-STATION
 971;0;0;Thunder Circuit
-871;21;0;Sloppy Sludge
-19;14;1;Sand Valley
-550;12;0;Meta Junglira
-250;8;0;Trichromatic Space
-350;17;0;Obsidian Oasis
-863;12;0;Blistering Shelter
+52;0;0;SMK Mario
+574;11;0;MKWii Coconut
+550;4;1;Meta Junglira
+250;0;0;Trichromatic Space
+350;3;0;Obsidian Oasis
+243;14;0;Burning Bone
 158;0;0;CD Special
-171;8;2;Golden Passage
+171;2;3;Golden Passage
 358;0;0;CK Cloud
-142;0;0;Colosseum
-558;1;0;Amber Glade
-571;10;1;DKR Crescent Island
-471;0;0;SRB2 Emerald
-163;0;0;MK64 Block
-103;21;0;Liminal Landscape
-168;21;0;Howling Bogs
-195;22;0;Melty Manor
-504;25;0;Rec 'N
-426;0;0;MK64 Big donut
-610;10;0;Opal Island
-812;13;2;Three seven speedway
-48;6;2;MKSC Sky
-58;4;0;Kart Airlines
-28;9;0;Barren Badlands
-38;3;3;Egg Quarters
-88;9;0;Tux Raceway
-1031;0;0;The Foos-Room
-616;3;0;Summer Segue
-78;21;0;ZONED CITY
-64;20;1;Machine Labyrinth
+475;2;1;Frigid
+575;3;0;Eerie Catacombs
+658;2;0;Monster Monarch
+758;17;0;Mayday Submarine
+16;3;0;Paradise Hill
+283;0;0;Clock Towers
+192;2;0;Square Quartet
+888;1;1;Cliffside Castle
+37;3;0;Boiling Bedrock
+252;2;1;Meteor Desert
+806;6;0;Bedroom Brickway
+1033;0;0;Wind Fish
+48;3;0;MKSC Sky
+58;1;1;Kart Airlines
+28;3;0;Barren Badlands
+38;3;1;Egg Quarters
+88;3;0;Tux Raceway
+46;2;1;SD2 Balloon
+879;16;0;Meteor Mine
+572;12;0;Jade Driftway
+979;2;0;V2.0.X SPECIAL STAGE
 149;0;0;City Skyline
-249;10;0;Polychrome Polygon
-727;13;2;Puyo Puyo Gardens
-360;3;1;Diamond Square
-18;10;1;Sapphire Coast
-720;15;0;Magma Valley
-460;14;0;Umbrella Rushwinds
-34;0;0;CK Cloud
+785;6;0;Westopolis Juncture
+224;1;0;Chilly Crystal
+484;4;2;The Untitled
+18;2;0;Sapphire Coast
+284;0;0;Downhill Jam
+460;5;0;Umbrella Rushwinds
+157;0;0;Mementos
 141;0;0;Marble
-126;26;0;CTR Cortex Castle
-202;16;0;Sweet Mountain
-24;10;0;Blue Mountain
-541;5;0;Blizzard
-778;14;0;Mushroom Kingdom
-341;0;0;Malicious Metropolis
+50;9;0;MKSC Rainbow
+168;8;0;Howling Bogs
+40;4;2;Eggman's Nightclub
+541;3;0;Blizzard
+842;12;0;Green Tropics
+249;3;0;Polychrome Polygon
