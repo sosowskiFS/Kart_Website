@@ -71,6 +71,15 @@
 	padding: 0;
 }
 
+.leaderboardHover:hover {
+	cursor: pointer;
+	background-color: #444;
+}
+
+.IAmAnAttentionWhore {
+	font-size: 0.8em;
+}
+
 @media (min-width: 0px) {
     .ks-1440 {
         display: none;
@@ -193,11 +202,20 @@
     }
 }
 
+@media (max-width: 992px) {
+	.IAmAnAttentionWhore {
+		font-size: inherit !important;
+	}
+}
+
 @media (max-width: 1200px) {
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 }
 
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
+	.IAmAnAttentionWhore {
+		font-size: 0.8em;
+	}
 }
