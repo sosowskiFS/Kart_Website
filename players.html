@@ -6,130 +6,325 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Player Data</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--Orbitron-->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="css/parent.css" type="text/css" />
-
-    <style>
-        body {
-            font-family: 'Orbitron', sans-serif;
-        }
-
-        .listBorderRight {
-            border-right: 1px solid rgba(0,0,0,.125);
-        }
-
-        .noPadding {
-            padding: 0;
-        }
-    </style>
 </head>
 <body>
     <div class="container" style="margin-top:1em; margin-bottom:1em;">
-        <!--Make a short one row entry for leaderboard use-->
-        <!--Rank/Name/Wins/WinPercent/Races/vKS/jKS/nKS/Records/-->
-        <ol class="list-group">
-            <li class="list-group-item">
-                <div class="row" style="align-items:center;">
-                    <div class="col-1 noPadding">
-                        <span style="font-size: 1.2em;margin-right:0.5em;">1</span>
-                    </div>
-                    <div class="col-2 text-center noPadding">
-                        <span style="font-weight:bold;">Player Name</span>
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        99.99%
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 text-center noPadding">
-                        9999
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row" style="align-items:center;">
-                    <div class="col-1 noPadding">
-                        <span style="font-size: 1.2em;margin-right:0.5em;">2</span>
-                    </div>
-                    <div class="col-2 text-center noPadding">
-                        <span style="font-weight:bold;">Player Name</span>
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        99.99%
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 text-center noPadding">
-                        9999
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <div class="row" style="align-items:center;">
-                    <div class="col-1 noPadding">
-                        <span style="font-size: 1.2em;margin-right:0.5em;">3</span>
-                    </div>
-                    <div class="col-2 text-center noPadding">
-                        <span style="font-weight:bold;">Player Name</span>
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        99.99%
-                    </div>
-                    <div class="col-2 listBorderRight text-center noPadding">
-                        9,999,999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 listBorderRight text-center noPadding">
-                        9999
-                    </div>
-                    <div class="col-1 text-center noPadding">
-                        9999
-                    </div>
-                </div>
-            </li>
-        </ol>
-
+		<div class="row">
+			<div class="col-md-6 col-12">
+				<!--Wins-->
+				<ol class="list-group">
+					<li class="list-group-item" data-bs-toggle="modal" data-bs-target="#playerCard">
+						<div class="row" style="align-items:center;">
+							<div class="col-1 listBorderRight noPadding">
+								<span style="font-size: 1.2em;margin-right:0.5em;">1</span>
+							</div>
+							<div class="col-5 listBorderRight text-center noPadding">
+								<span style="font-weight:bold;">Player Name</span>
+							</div>
+							<div class="col-6 text-center noPadding">
+								9,999,999
+							</div>
+						</div>
+					</li>
+				</ol>
+			<div>
+			<div class="col-md-6 col-12">
+				<!--Vanilla/Tech-->
+			<div>
+			<div class="col-md-6 col-12">
+				<!--Juice-->
+			<div>
+			<div class="col-md-6 col-12">
+				<!--Nitro-->
+			<div>
+			<div class="col-md-6 col-12">
+				<!--Combi-->
+			<div>
+			<div class="col-md-6 col-12">
+				<!--Rings-->
+			<div>
+		</div>
     </div>
+	
+	<!--Player info modal-->
+	<div id="playerCard" class="modal fade" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Player Name</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<ul class="nav nav-tabs" id="op2Tab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab" aria-controls="details" aria-selected="false">Details</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="tabParent">
+						<div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+							<div class="row" style="border-left: 1px solid #515151; border-right: 1px solid #515151; border-bottom: 1px solid #515151;">
+								<div class="col-12 text-center" style="margin-top: 0.5em;">
+									<div class="row" style="align-items: center;">
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<img src="img/gold.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<h5 id="goldStat" class="phonetext">9,999,999</h5>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<img src="img/silver.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<h5 id="silverStat" class="phonetext">9,999,999</h5>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<img src="img/copper.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col" style="padding:0;">
+													<h5 id="bronzeStat" class="phonetext">9,999,999</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row" style="align-items: center;margin-bottom: 0.5em;">
+										<div class="progress" style="height: 25px; padding: 0;">
+											<div id="barGold" class="progress-bar" role="progressbar" style="width: 10%; background-color: #f9e911;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><h6 id="perGold" class="h6longtext" style="margin-bottom: 0;color: #000;">10%</h6></div>
+											<div id="barSilver" class="progress-bar" role="progressbar" style="width: 15%; background-color: #9c9daa;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><h6 id="perSilver" class="h6longtext" style="margin-bottom: 0; color: #000;">15%</h6></div>
+											<div id="barBronze" class="progress-bar" role="progressbar" style="width: 20%; background-color: #d98846;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><h6 id="perBronze" class="h6longtext" style="margin-bottom: 0; color: #000;">20%</h6></div>
+											<div id="barTotal" class="progress-bar" role="progressbar" style="width: 55%; background-color: #3070d9;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><h6 id="raceTotal" class="h6longtext" style="margin-bottom: 0;">9,999,999 Races</h6></div>
+										</div>
+									</div>
+									<div class="row" style="align-items: center;">
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<img src="img/Sonic-Robo-Blast-2-Kart-logo.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<h5 id="ksVanilla">9999</h5>
+													<h6 id="ksVanillaBest" class="card-subtitle mb-2 text-muted">Best 9999</h6>
+													<h6 id="ksVanillaRank" class="card-subtitle mb-2 text-muted">Rank 9999</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<img src="img/2691.jpg" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<h5 id="ksJuice">9999</h5>
+													<h6 id="ksJuiceBest" class="card-subtitle mb-2 text-muted">Best 9999</h6>
+													<h6 id="ksJuiceRank" class="card-subtitle mb-2 text-muted">Rank 9999</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<img src="img/K_ITSHOE2.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<h5 id="ksNitro">9999</h5>
+													<h6 id="ksNitroBest" class="card-subtitle mb-2 text-muted">Best 9999</h6>
+													<h6 id="ksNitroRank" class="card-subtitle mb-2 text-muted">Rank 9999</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<img src="img/combiplaceholder.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<h5 id="ksCombi">9999</h5>
+													<h6 id="ksCombiBest" class="card-subtitle mb-2 text-muted">Best 9999</h6>
+													<h6 id="ksCombiRank" class="card-subtitle mb-2 text-muted">Rank 9999</h6>
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<img src="img/ring.png" width="50" height="50" class="img-fluid" />
+												</div>
+											</div>
+											<div class="row" style="align-items: center;">
+												<div class="col">
+													<h5 id="ksRing">9999</h5>
+													<h6 id="ksRingBest" class="card-subtitle mb-2 text-muted">Best 9999</h6>
+													<h6 id="ksRingRank" class="card-subtitle mb-2 text-muted">Rank 9999</h6>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+							<div class="row" style="padding: 0; border-left: 1px solid #515151; border-right: 1px solid #515151; border-bottom: 1px solid #515151;">
+								<div class="col col-no-padding border-right text-center">
+									<div class="col-header" style="border-bottom: 1px solid #515151">
+										Overall
+									</div>
+									<div class="row ks-576">
+										<div class="col col-sm-6 tBorderRight">
+											<p>Races</p>
+											<h5 id="dRaces">9,999,999</h5>
+										</div>
+										<div class="col col-sm-6">
+											<p>Wins</p>
+											<h5 id="dWins">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-12">
+											<p>Win Percent</p>
+											<h5 id="dWinPercent">99.99%</h5>
+										</div>
+									</div>
+									<div class="row ks-1440">
+										<div class="col tBorderRight">
+											<p>Races</p>
+											<h5 id="dRaces2">9,999,999</h5>
+										</div>
+										<div class="col tBorderRight">
+											<p>Wins</p>
+											<h5 id="dWins2">9,999,999</h5>
+										</div>
+										<div class="col">
+											<p>Win Percent</p>
+											<h5 id="dWinPercent2">99.99%</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-6 tBorderRight">
+											<p class="longtext">Second Places</p>
+											<h5 id="dSecond">9,999,999</h5>
+										</div>
+										<div class="col col-sm-6">
+											<p>Third Places</p>
+											<h5 id="dThird">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-12">
+											<p class="longtext">Podium Percent</p>
+											<h5 id="dPodium">99.99%</h5>
+										</div>
+									</div>
+									<div class="row ks-1440 tBorderTop">
+										<div class="col tBorderRight">
+											<p class="longtext">Second Places</p>
+											<h5 id="dSecond2">9,999,999</h5>
+										</div>
+										<div class="col tBorderRight">
+											<p>Third Places</p>
+											<h5 id="dThird2">9,999,999</h5>
+										</div>
+										<div class="col">
+											<p class="longtext">Podium Percent</p>
+											<h5 id="dPodium2">99.99%</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col col-no-padding text-center">
+									<div class="col-header" style="border-bottom: 1px solid #515151">
+										Item Hits
+									</div>
+									<div class="row ks-576">
+										<div class="col col-sm-12">
+											<p>Hits</p>
+											<h5 id="dHits">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-12">
+											<p class="longtext">Self/Environment Hits</p>
+											<h5 id="dSelf">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-1440">
+										<div class="col tBorderRight">
+											<p>Hits</p>
+											<h5 id="dHits2">9,999,999</h5>
+										</div>
+										<div class="col">
+											<p class="longtext">Self/Environment Hits</p>
+											<h5 id="dSelf2">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-6 tBorderRight">
+											<p>Spun Out</p>
+											<h5 id="dSpin">9,999,999</h5>
+										</div>
+										<div class="col col-sm-6">
+											<p>Exploded</p>
+											<h5 id="dExploded">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-576 tBorderTop">
+										<div class="col col-sm-12">
+											<p>Squished</p>
+											<h5 id="dSquish">9,999,999</h5>
+										</div>
+									</div>
+									<div class="row ks-1440 tBorderTop">
+										<div class="col tBorderRight">
+											<p>Spun Out</p>
+											<h5 id="dSpin2">9,999,999</h5>
+										</div>
+										<div class="col tBorderRight">
+											<p>Exploded</p>
+											<h5 id="dExploded2">9,999,999</h5>
+										</div>
+										<div class="col">
+											<p>Squished</p>
+											<h5 id="dSquish2">9,999,999</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>

@@ -63,6 +63,14 @@
     color: #ffffff;
 }
 
+.listBorderRight {
+	border-right: 1px solid rgba(250,250,250,.125);
+}
+
+.noPadding {
+	padding: 0;
+}
+
 @media (min-width: 0px) {
     .ks-1440 {
         display: none;
@@ -147,6 +155,11 @@
     .phonetext {
         font-size: 1.25rem;
     }
+	
+	/* Overriding Bootstrap */
+	.modal-dialog {
+		max-width: 900px !important;
+	}
 }
 
 @media (min-width: 768px) {

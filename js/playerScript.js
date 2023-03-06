@@ -169,7 +169,7 @@ async function callPlayerData() {
         }
     }*/
 
-    //applyPlayerData("Onyo");
+    applyPlayerData("Onyo");
     autocomplete(document.getElementById("playerSearch"), autocompleteArray);
 }
 
